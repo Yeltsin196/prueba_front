@@ -2,22 +2,57 @@
 
 }
 
-.navp{
+.navl{
     margin:0;
 }
-.logonav{
-    margin-left: 161.56px;
+ .ulnav .imglogo{
+  width: 330px;
+    height: 27px!important;
+  margin:60.24px 60.31px 0 161.56px; 
+ 
+ }
+
+.ulnav img{
+  height: 100%;
+  width:100%;
+}
+.navl li {
+  margin-top: 54px;
+  text-align: left;
+  font: 500 17px/26px 'Poppins';
+  letter-spacing: 0;
+  color: #185F7F;
+  opacity: 1;
 
 }
 
-.navp .nav-link {
-  margin-top: 54px;
- /*  padding: 0 24px 0 0 !important; */
-  font-family: "Poppins";
-  
-  width: 51px;
-  height: 24px;
+#ultli{
+  margin-right:42px;
+}
 
+.navl .nav-input-container{
+  width: 326px;
+  height: 50px;
+  margin-top:51px;
+  border: 1px solid #C6BAF8;
+  border-radius: 4px;
+    opacity: 1;
+    display: flex;
+    justify-content: left;
+    align-items: center;
+}
+ .navl .nav-input img{
+ 
+  width: 18px;
+	height: 18px;
+}
+
+
+.navl  .nav-input input{
+  margin-left: 21px;
+  width: 269px;
+  border: none;
+	outline: none;
 }
 
 .btn-shok {
@@ -38,8 +73,8 @@ li .nav-input {
 
 .ulnav {
   display: flex;
-  justify-content: center;
-  align-items: center;
+ /*  justify-content: center;
+  align-items: center; */
 }
 
 .ulnav img {

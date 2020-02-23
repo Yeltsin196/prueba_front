@@ -198,5 +198,99 @@ font-size: 18px;
 
 
 
+/* .owl-item , .active{
+  width:422px;
+  height: 532px!important;
+}
+.owl-carousel .owl-stage-router .owl-stage .owl-item .card{
+  width:422px;
+  height: 532px;
+  text-align: center;
+}
+.owl-carousel .owl-item .class_img{
+  border-radius: 127px;
+  opacity: 1;
+  width: 254px!important;
+height: 255px!important;
+margin: 25px 84px 0;
+}
 
 
+.card-body{
+  margin: 0;
+    padding: 0;
+}
+.card .card-body .card-title{
+  
+ margin:39px 74px 25px;
+
+ width: 274px;
+height: 33px;
+  font:  400 24px/24px 'Poppins'; 
+  color:#222222;
+}
+
+.owl-carousel .card .card-body strong{
+  
+ 
+  font:  600 24px/24px 'Poppins'; 
+  color:#222222;
+}
+
+.card .card-body .card-text{
+  
+  font: 400 15px/27px 'Poppins';
+  letter-spacing: 0;
+  color: #555555;
+  opacity: 1;
+  width: 304px;
+  height: 91px;
+  margin:0 59px 64px;
+} */
+
+.info5{
+  margin-top:253px;
+}
+.info5-title{
+  width: 486px;
+  height: 53px;
+  text-align: center;
+  letter-spacing: 0;
+  color: #222222;
+  opacity: 1;
+  margin:0 712px 141px 722px;
+}
+.info5-title p strong{
+  font:600 43px/55px 'Montserrat';
+}
+
+.info5 .c1 .c2 .target-partnes{
+  margin-top:45px;
+}
+.info5 .c1 {
+  margin: 0 341px 0 348px;
+}
+.info5 .c1 .c2{
+  display:flex;
+}
+
+
+.info5 .c1 .c2 .target-partnes,.target-partnes2{
+  text-align: center;
+  width: 386px!important;
+  height: 338px!important;
+background: #FFFFFF 0% 0% no-repeat padding-box;
+box-shadow: 0px 10px 30px #99999933;
+border-radius: 8px;
+opacity: 1;
+}
+
+.info5 .c1 .c2 .target-partnes2{
+  margin-left:37px;
+  margin-right:36px;
+}
+
+#img-immersity{
+  width: 257px;
+height: 204px;
+}

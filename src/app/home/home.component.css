@@ -17,7 +17,7 @@
   width:100%;
 }
 .navl li {
-  margin-top: 54px;
+  margin-top: 46px;
   text-align: left;
   font: 500 17px/26px 'Poppins';
   letter-spacing: 0;
@@ -33,7 +33,7 @@
 .navl .nav-input-container{
   width: 326px;
   height: 50px;
-  margin-top:51px;
+  margin-top:41px;
   border: 1px solid #C6BAF8;
   border-radius: 4px;
     opacity: 1;
@@ -61,7 +61,12 @@
   margin-left: 42.17px;
   width: 169px;
   height: 58px;
-  font-family: "Poppins";
+  text-align: center;
+  font: 500 17px/26px 'Poppins';
+  letter-spacing: 0;
+  color: #FFFFFF;
+  text-transform: capitalize;
+  opacity: 1;
 }
 
 li .nav-input {
@@ -73,8 +78,7 @@ li .nav-input {
 
 .ulnav {
   display: flex;
- /*  justify-content: center;
-  align-items: center; */
+
 }
 
 .ulnav img {
@@ -90,7 +94,17 @@ li .nav-input {
     width: 313.07px;
     
 }
-
+.info1-title{
+  width: 550px;
+  text-align: center;
+  margin-top: 55px;
+}
+.info-our-works h3{
+  font-family: 'Poppins';
+  font-size:59px;
+  color:#222222;
+  font-weight:600;
+}
 section .info-our-works {
   width: 1920px !important;
   height: 765px !important;
@@ -107,22 +121,30 @@ section .info-our-works {
 div .btn-center {
   justify-content: center;
   font-family: "Poppins";
-}
-.btn-shok-sm {
-  width: 182px;
+ 
   height: 62px;
+}
+.info1 .btn-center .btn-shok {
+  width: 182px;
+  height: 62.46px;
+  margin:0;
   margin-left: 46.84px;
   font-family: "Poppins";
-}
-.btn-shok-lineargr {
   background: linear-gradient(248deg, #1b92c8 0%, #2c3636 100%);
 }
-.btn-shok-vacio {
+.info1 .btn-center .btn-shok-vacio {
+  width: 182px;
+  height: 62.46px;
   border: 1px solid #185f7f;
   opacity: 1;
   color: #185f7f;
   opacity: 1;
   font-family: "Poppins";
+  margin-left:46.84px;
+font: 500 19px/29px 'Poppins';
+letter-spacing: 0;
+text-transform: capitalize;
+opacity: 1;
 }
 
 

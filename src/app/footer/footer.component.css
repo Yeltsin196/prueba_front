@@ -1,1 +1,26 @@
- 
+
+ .footer-container{
+    width: 1934px;
+    height: 564px;
+ }
+ .footer-contain{
+    width: 1932px;
+    height: 290px;
+    margin-top: 1px;
+    background: transparent linear-gradient(4deg, #FFFFFF 0%, #DFF0FF 100%) 0% 0% no-repeat padding-box;
+ }
+
+ .container-info{
+    width: 1932px;
+    height: 110.13px;
+    background: #FFFFFF 0% 0% no-repeat padding-box;
+  /*   clip-path: polygon(0 0, 0% 100%, 95% 1%); */
+  clip-path: polygon(100% 0, 100% 4%, 0 100%, 0 0);
+ }
+
+ .footer-info{
+     margin:0 294px;
+     display:grid;
+   
+     grid-template-columns: 1fr 1fr 1fr 1fr;
+ }

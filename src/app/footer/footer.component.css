@@ -18,7 +18,7 @@
   clip-path: polygon(100% 0, 100% 4%, 0 100%, 0 0);
  }
 
- .footer-info{
+ .footer-info ,.footer-info2{
      margin:0 294px;
      
  }
@@ -74,6 +74,14 @@ opacity: 1;
  .info-description {
     text-align: left;
     font: 400 13px/23px 'Poppins';
+    letter-spacing: 0;
+    color: #777777;
+    opacity: 1;
+ }
+
+ .list-unstyled li a{
+    text-align: left;
+    font: 400 15px/32px 'Poppins';
     letter-spacing: 0;
     color: #777777;
     opacity: 1;

@@ -1,0 +1,93 @@
+.info7 .info7-container{
+    width: 1932px;
+  height: 1086px;
+    background: transparent linear-gradient(1deg, #FFFFFF 0%, #C9E6FF 100%) 0% 0% no-repeat padding-box;
+  }
+  
+  .info7 .info7-container .info7-container-2{
+    width: 1827px;
+  height: 990px;
+  margin:auto;
+  }
+  .info7-div-title{
+    display:inline-flex;
+    justify-content: center;
+    width:1920px;
+    height:108px;
+    margin-top:75px;
+  }
+  .info7-title{
+    width: 498px;
+  height: 108px;
+    text-align: center;
+  font: 400 43px/55px 'Montserrat';
+  letter-spacing: 0;
+  color: #222222;
+  margin-right:20px;
+  }
+  
+  .form-container{
+    width: 929px;
+  height: 784px;
+  background: #FFFFFF 0% 0% no-repeat padding-box;
+  box-shadow: 0px 20px 60px #3E3E3E29;
+  border-radius: 8px;
+  opacity: 1;
+  }
+  
+  .contenido-info7{
+    display: inline-flex;
+  }
+  
+  .info7-container-image{
+      
+        width: 566px;
+        height: 492px;
+    
+        margin-left: 81px;
+      
+        margin-top: 239px;
+  }
+  
+  .form-div{
+    width: 804px;
+  height: 638px;
+  margin: 72px auto auto;
+  }
+  
+  .form-group input{
+    border-radius: 0 !important;
+     
+  
+      border-top: 0;
+      border-left: 0;
+      border-right: 0;
+  }
+  input:focus, input.form-control:focus {
+  
+    outline:none !important;
+    outline-width: 0 !important;
+    box-shadow: none;
+    -moz-box-shadow: none;
+    -webkit-box-shadow: none;
+  }
+  .form-row  {
+    margin-bottom:40px;
+  }
+  
+  .form-group input{
+    padding:0;
+  }
+  
+  .form-div .btn-shok-vacio{
+    width: 182px;
+  height: 62px;
+  border: 1px solid #185F7F;
+opacity: 1;
+text-align: center;
+font: 500 19px/29px 'Poppins';
+letter-spacing: 0;
+color: #185F7F;
+text-transform: capitalize;
+opacity: 1;
+  }

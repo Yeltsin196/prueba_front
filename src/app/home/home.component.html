@@ -24,16 +24,16 @@
     </li>
     <div class="nav-input-container">
       <div class="nav-input">
-        <input type="text">
+        <input type="text" />
         <!-- <a class="search-icon" href=""></a> -->
-        <a href="" class="search-icon"><img src="../../assets/search.png" alt=""></a>
+        <a href="" class="search-icon"
+          ><img src="../../assets/search.png" alt=""
+        /></a>
       </div>
-  
     </div>
     <div class="button-contact">
       <button class="btn btn-shok">Contact US</button>
     </div>
-  
   </ul>
 </div>
 
@@ -46,7 +46,6 @@
       <div class="info1-title">
         <h3>A Brand New Way To See The World</h3>
       </div>
-      
     </div>
   </div>
   <div>
@@ -104,15 +103,14 @@
     <h2 class="font-monserrat"><strong> Speciality Of Us?</strong></h2>
   </div>
   <div id="owl-demo" class="owl-carousel owl-theme documentation">
-    
- <!--  <div>
+    <!--  <div>
             <div *ngFor="let new of news " class="col-lg-2">
               <p>{{new.content}}</p>
             </div>
         </div>  -->
   </div>
 
- <!-- <div class="card">
+  <!-- <div class="card">
   <div class="card-body">
     <img class="card_img" style="width: 254px!important;
     height: 255px!important;"src="../../assets/icon-2.png" alt="">
@@ -125,184 +123,56 @@
    
   </div>
  </div> -->
-  
-       
 </section>
-
 
 <section class="info5">
- 
-  <div class="info5-title"> <p > <strong>Our Partnes & Clients</strong></p></div>
-   
-
-   <div class="c1" >
-    <div class="c2" >
-      <div class="target-partnes ">
-
-        <div > 
-          <img  id="" src="../../assets/big immersity logo.png" alt="">
-        <div class="learn-more"> <a href="">Learn More</a></div>
-        </div>
-        
-       
-      </div>
-      <div class="target-partnes2 "> 
-        <div>
-        <img src="../../assets/logo_ipass.png" alt="">
-        <div class="learn-more"> <a href="">Learn More</a></div>
-      </div>
-      </div>
-      <div class="target-partnes ">
-        <div>
-
-       
-        <img src="../../assets/logo-rojo.png" alt="">
-        <div class="learn-more"> <a href="">Learn More</a></div>
-      </div>
-      </div>
-    </div>
-   </div>
-   <div class="c1" >
-    <div class="c2" >
-     
-      <div class="target-partnes ">
-        <div>
-          <img  id="" src="../../assets/logo_splash.png" alt="">
-          <div class="learn-more"> <a href="">Learn More</a></div>
-        </div>
-       
-       
-      </div>
-      <div class="target-partnes2 "> 
-        <div>
-          <img src="../../assets/Group 94.png" alt="">
-        <div class="learn-more"> <a href="">Learn More</a></div>
-        </div>
-        
-      </div>
-      <div class="target-partnes ">
-        <div>
-          <img src="../../assets/Group 2788.png" alt="">
-          <div class="learn-more"> <a href="">Learn More</a></div>
-        </div>
-      
-      </div>
-    </div>
-   </div>
-     
-  
-</section>
-
-<section class="info6">
-  <div class="info6-title">
-    <h3>What Our <strong>Clientes Says?</strong></h3>
+  <div class="info5-title">
+    <p><strong>Our Partnes & Clients</strong></p>
   </div>
-  <div *ngFor="let user of users">
-   
-    
-  </div>
-   <div class="carousel-container">
-    <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
-      <ol class="carousel-indicators">
-        <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
-        <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
-        <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
-      </ol>
-      <div class="carousel-inner" >
-        <div class="carousel-item active" *ngFor="let user of users1">
-          <div class="carousel-div" >
-            <div  id="carousel-item-1" class="carousel-div-item">
-              <img src="../../assets/Ellipse 344.png" alt="">
-            </div>
-            <div id="carousel-item-2" class="carousel-div-item">
-              <img src="../../assets/Ellipse 346.png" alt="">
-            </div>
-             <div  id="carousel-item-3" class="carousel-div-item">
-              <img src="../../assets/Ellipse 347.png" alt="">
-            </div>
-            <div class="quote-left">
-              <img src="../../assets/quote-left.png" alt="">
-            </div>
-            <div class="quote-right">
-              <img src="../../assets/quote-left-1.png" alt="">
-            </div>
-            <div class="carousel-item-p">
-            
-              <p >{{user.company.catchPhrase}}</p>
-            </div>
-            <div  id="carousel-item-4" class="carousel-div-item">
-              <img src="../../assets/Ellipse 348.png" alt="">
-            </div> 
-            <div  id="carousel-item-5" class="carousel-div-item">
-              <img src="../../assets/Ellipse 350.png" alt="">
-            </div> 
-            <div class="carousel-item-name">
-              <h3><strong>{{user.name}}</strong></h3>
-             </div>
-             <div class="carousel-item-work">
-               <h4>{{user.company.bs}}<!-- ,{{user2.company.name}} --></h4>
-             </div>
-            
-          </div>
-        </div>
-        <div class="carousel-item" *ngFor="let user2 of users">
-           <div class="carousel-div" >
-            <div  id="carousel-item-1" class="carousel-div-item">
-              <img src="../../assets/Ellipse 344.png" alt="">
-            </div>
-            <div id="carousel-item-2" class="carousel-div-item">
-              <img src="../../assets/Ellipse 346.png" alt="">
-            </div>
-             <div  id="carousel-item-3" class="carousel-div-item">
-              <img src="../../assets/Ellipse 347.png" alt="">
-            </div>
-            <div class="quote-left">
-              <img src="../../assets/quote-left.png" alt="">
-            </div>
-            <div class="quote-right">
-              <img src="../../assets/quote-left-1.png" alt="">
-            </div>
-            <div class="carousel-item-p">
-            
-              <p >{{user2.company.catchPhrase}}</p>
-            </div>
-            <div class="carousel-item-name">
-             <h3><strong>{{user2.name}}</strong></h3>
-            </div>
-            <div class="carousel-item-work">
-              <h4>{{user2.company.bs}}<!-- ,{{user2.company.name}} --></h4>
-            </div>
-            <div  id="carousel-item-4" class="carousel-div-item">
-              <img src="../../assets/Ellipse 348.png" alt="">
-            </div> 
-            <div  id="carousel-item-5" class="carousel-div-item">
-              <img src="../../assets/Ellipse 350.png" alt="">
-            </div> 
-          
-            
-          </div>
-        </div>
-        
-      </div>
-      <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
-        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-        <span class="sr-only">Previous</span>
-      </a>
-      <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
-        <span class="carousel-control-next-icon" aria-hidden="true"></span>
-        <span class="sr-only">Next</span>
-      </a>
-    </div>
-  </div> 
-</section>
 
-<section class="info7">
-  <div class="info7-container">
-    <div class="info7-container-2">
-     <div class="info7-title">
-      
-      <h2>Facing Problem?<br> <strong>Lets Get In Touch Now</strong></h2>
-     </div>
+  <div class="c1">
+    <div class="c2">
+      <div class="target-partnes ">
+        <div>
+          <img id="" src="../../assets/big immersity logo.png" alt="" />
+          <div class="learn-more"><a href="">Learn More</a></div>
+        </div>
+      </div>
+      <div class="target-partnes2 ">
+        <div>
+          <img src="../../assets/logo_ipass.png" alt="" />
+          <div class="learn-more"><a href="">Learn More</a></div>
+        </div>
+      </div>
+      <div class="target-partnes ">
+        <div>
+          <img src="../../assets/logo-rojo.png" alt="" />
+          <div class="learn-more"><a href="">Learn More</a></div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="c1">
+    <div class="c2">
+      <div class="target-partnes ">
+        <div>
+          <img id="" src="../../assets/logo_splash.png" alt="" />
+          <div class="learn-more"><a href="">Learn More</a></div>
+        </div>
+      </div>
+      <div class="target-partnes2 ">
+        <div>
+          <img src="../../assets/Group 94.png" alt="" />
+          <div class="learn-more"><a href="">Learn More</a></div>
+        </div>
+      </div>
+      <div class="target-partnes ">
+        <div>
+          <img src="../../assets/Group 2788.png" alt="" />
+          <div class="learn-more"><a href="">Learn More</a></div>
+        </div>
+      </div>
     </div>
   </div>
 </section>
+

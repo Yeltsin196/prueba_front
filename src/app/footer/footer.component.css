@@ -20,7 +20,61 @@
 
  .footer-info{
      margin:0 294px;
-     display:grid;
-   
-     grid-template-columns: 1fr 1fr 1fr 1fr;
+     
+ }
+ .info-title, .list-contact, .info-description{
+    margin:auto;
+ }
+ .info-title{
+     padding:0;
+ }
+ .info-title h5{
+ 
+    font: 500 18px/27px 'Poppins';
+    letter-spacing: 0;
+    color: #101C21;
+    opacity: 1;
+ }
+
+ .item{
+     padding:0;
+ }
+ .icon-social{
+    width: 49px;
+    height: 48px;
+    border-radius: 100%;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+
+    
+}
+#icon-fb{
+    background: transparent linear-gradient(45deg, #6362D7 0%, #FF8FE2 100%) 0% 0% no-repeat padding-box;
+ 
+}
+#icon-ig{
+    background: transparent linear-gradient(47deg, #F09376 0%, #F0DB79 100%) 0% 0% no-repeat padding-box;
+    opacity: 1;
+}
+
+#icon-sk{
+    background: transparent linear-gradient(23deg, #00B56C 0%, #1DBE75 22%, #68D58C 68%, #9EE69D 100%) 0% 0% no-repeat padding-box;
+    opacity: 1;
+}
+
+#icon-lknd{
+    background: transparent linear-gradient(90deg, #FF9AB6 0%, #F03295 99%, #F03295 100%) 0% 0% no-repeat padding-box;
+opacity: 1;
+}
+ .icon-social {
+    cursor: pointer;
+ }
+
+ .info-description {
+    text-align: left;
+    font: 400 13px/23px 'Poppins';
+    letter-spacing: 0;
+    color: #777777;
+    opacity: 1;
  }

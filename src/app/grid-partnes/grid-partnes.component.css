@@ -1,0 +1,49 @@
+.info5{
+    margin-top:253px;
+  }
+  .info5-title{
+    width: 486px;
+    height: 53px;
+    text-align: center;
+    letter-spacing: 0;
+    color: #222222;
+    opacity: 1;
+    margin:0 712px 141px 722px;
+  }
+  .info5-title p strong{
+    font:600 43px/55px 'Montserrat';
+  }
+  
+  .info5 .c1 .c2 .target-partnes{
+    margin-top:45px;
+  }
+  .info5 .c1 {
+    margin: 0 341px 0 348px;
+  }
+  .info5 .c1 .c2{
+    display:flex;
+  }
+  
+  
+  .info5 .c1 .c2 .target-partnes,.target-partnes2{
+    text-align: center;
+    width: 386px!important;
+    height: 338px!important;
+  background: #FFFFFF 0% 0% no-repeat padding-box;
+  box-shadow: 0px 10px 30px #99999933;
+  border-radius: 8px;
+  opacity: 1;
+  display: flex;
+      align-items: center;
+      justify-content: center;
+  }
+  
+  .info5 .c1 .c2 .target-partnes2{
+    margin-left:37px;
+    margin-right:36px;
+  }
+  
+  .learn-more{
+    padding-top: 27px;
+    padding-bottom: 33px;
+  }

@@ -10,6 +10,7 @@ import { FooterComponent } from './footer/footer.component';
 import { HttpClientModule } from '@angular/common/http';
 import { ContactComponent } from './contact/contact.component';
 import { CarouselQuoteComponent } from './carousel-quote/carousel-quote.component';
+import { GridPartnesComponent } from './grid-partnes/grid-partnes.component';
 
 
 @NgModule({
@@ -25,6 +26,8 @@ import { CarouselQuoteComponent } from './carousel-quote/carousel-quote.componen
     ContactComponent,
     
     CarouselQuoteComponent,
+    
+    GridPartnesComponent,
     
  
     

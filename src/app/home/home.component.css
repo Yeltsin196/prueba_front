@@ -483,3 +483,24 @@ opacity: 1;
   right:379px;
   
 }
+
+.info7 .info7-container{
+  width: 1932px;
+height: 1086px;
+  background: transparent linear-gradient(1deg, #FFFFFF 0%, #C9E6FF 100%) 0% 0% no-repeat padding-box;
+}
+
+.info7 .info7-container .info7-container-2{
+  width: 1827px;
+height: 990px;
+margin:auto;
+}
+
+.info7-title{
+  width: 498px;
+height: 108px;
+  text-align: center;
+font: 400 43px/55px 'Montserrat';
+letter-spacing: 0;
+color: #222222;
+}

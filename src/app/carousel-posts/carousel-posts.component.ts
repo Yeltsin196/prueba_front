@@ -23,10 +23,7 @@ export class CarouselPostsComponent implements OnInit {
   }
 
   ngOnInit(): void {
-    $(document).ready(function () {
-           
-      $("#carouselExampleControls").carousel({ interval: 500, pause: "hover" });
-    });
+   
     this.fetchNews();
   }
 

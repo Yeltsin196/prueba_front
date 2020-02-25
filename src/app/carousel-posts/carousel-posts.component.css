@@ -67,7 +67,7 @@
   border-radius: 100%;
   opacity: 1;
 }
-.card-img,
+
 .item-carousel {
   display: flex;
 }
@@ -93,4 +93,9 @@
   width: 60px;
   height: 60px;
   border-radius: 100%;
+}
+
+.card-image{
+  display:grid;
+    justify-items: center;
 }

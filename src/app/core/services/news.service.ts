@@ -11,8 +11,5 @@ import {HttpClient} from '@angular/common/http';
 
     constructor(private http:HttpClient ) { }
 
-    /* public getAllNews(){
-       	    return this.http.get<News[]>(
-                "http://newsapi.org/v2/everything?q=bitcoin&from=2020-01-22&sortBy=publishedAt&apiKey=db39c5a6a01d4ae4accba308a82cea36");
-      }	 */  
+    /*  */  
 }

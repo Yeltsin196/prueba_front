@@ -1,0 +1,77 @@
+.info4 {
+  margin-top: 157px;
+}
+.info4 .info4-h2 {
+  width: 370px;
+  height: 108px;
+  text-align: center;
+  margin: 157px auto 81px;
+}
+.info4 .info4-h2 h2 {
+  letter-spacing: 0;
+  color: #222222;
+  font-weight: 400;
+  font-size: 43px;
+}
+
+.info4 .info4-h2 h2 strong {
+  letter-spacing: 0;
+
+  font-weight: 600;
+  font-size: 43px;
+}
+
+.card-a {
+  width: 422px;
+  height: 532px;
+
+  display: inline-block;
+  box-shadow: 0px 10px 30px #99999933;
+  margin-right: 26px;
+}
+.carousel-conteiner {
+  width: 1920px;
+  height: 560px;
+  margin: 0 74px;
+}
+
+.card-text {
+  width: 304px;
+  height: 200px;
+
+  margin: 0 auto;
+}
+
+.card-text p {
+  font: 400 15px/27px "Poppins";
+  letter-spacing: 0;
+  color: #555555;
+  opacity: 1;
+}
+.card-title {
+  width: 282px;
+  height: 47px;
+
+  text-align: center;
+}
+.card-title h5 {
+  font: 400 25px/25px "Poppins";
+  letter-spacing: 0;
+  color: #222222;
+  text-transform: capitalize;
+}
+
+.card-a img {
+  width: 254px;
+  height: 254px;
+  border-radius: 100%;
+  opacity: 1;
+}
+.card-img,
+.item-carousel {
+  display: flex;
+}
+.item-carousel {
+  text-align: center;
+  justify-content: center;
+}

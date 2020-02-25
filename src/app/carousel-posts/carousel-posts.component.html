@@ -1,1 +1,88 @@
-<p>carousel-posts works!</p>
+<section class="info4">
+    <div class="info4-h2">
+      <h2 class="font-monserrat">What is the</h2>
+      <h2 class="font-monserrat"><strong> Speciality Of Us?</strong></h2>
+    </div>
+    <div class="carousel-conteiner">
+        <div id="carouselExampleControls" class="carousel slide" data-ride="carousel">
+            <div class="carousel-inner">
+              <div class="carousel-item active">
+                <img class="d-block w-100" src="..." alt="First slide">
+              </div>
+              <div class="carousel-item " *ngFor="let new of newsA">
+                <div class="card-a" *ngFor="let nw of new">
+                   
+                       
+                            <div class="col-lg-12  item-carousel">
+                            <div class="card-image">
+                                <img src="{{nw.urlToImage}}" alt="">
+                            </div>
+                            
+                        </div> 
+                        <div class="col-lg-12 item-carousel mt-4">
+                            <div class="card-title">
+                                <h5>{{nw.author}}</h5> 
+                               
+                                
+                              </div>
+                        </div>
+                        <div class="col-lg-12 item-carousel mt-3">
+                            <div class="card-text">
+                               <p>{{nw.title}}</p>
+                               
+                                
+                              </div>
+                        </div>
+                    
+                        
+                        
+                    <!-- <div class="card-img" >
+                        
+                         <img src="{{nw.urlToImage}}" alt="">
+                    </div> 
+                    <div class="card-title">
+                        <h5>{{nw.author}}</h5> 
+                       
+                        
+                      </div>
+
+                      <div class="card-text">
+                        <p>{{nw.title}}</p>
+                      </div>
+                      -->
+                      
+                </div>
+              </div>
+              
+            </div>
+            <a class="carousel-control-prev" href="#carouselExampleControls" role="button" data-slide="prev">
+              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+              <span class="sr-only">Previous</span>
+            </a>
+            <a class="carousel-control-next" href="#carouselExampleControls" role="button" data-slide="next">
+              <span class="carousel-control-next-icon" aria-hidden="true"></span>
+              <span class="sr-only">Next</span>
+            </a>
+          </div>
+    </div>
+  
+  </section>
+
+ <!--  <div class="card">
+      <div class="card-img">
+           <img src="../../assets/icon-2.png" alt="">    
+      </div> 
+      <div class="mt-4">
+        <h4>customer satisfaction</h4>
+        
+      </div>
+      <div class="card-text mt-2">
+        <p>
+            We are know for our great attention and dedication at the time of creating projects
+           </p>
+      </div>
+   
+  </div> -->
+
+
+

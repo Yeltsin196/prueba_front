@@ -1,13 +1,24 @@
-.info6{
-    margin-top:237px;
+@media (min-width: 1024px) and (max-width:1028px) {
+  :host {
+    --tam_desktop: 1920;
+    --tam_screen_max: 1023;
+    --tam_screen_min: 1023px;
+  
   }
   
+  .info6{
+    margin-top:calc((var(--tam_screen_min) *237) / var(--tam_desktop));
+  }
   .info6-title{
     text-align:center;
   }
-  
   .info6-title h3{
-    font: 400 43px/55px 'Montserrat';
+    font-family:"Montserrat";
+    font-weight: 400;
+    font-size:calc((var(--tam_screen_min) *43) / var(--tam_desktop));
+    line-height: calc((var(--tam_screen_min) *55) / var(--tam_desktop));
+
+   
     letter-spacing: 0;
     color: #222222;
   }
@@ -17,51 +28,52 @@
   }
   .carousel-container{
     
-    width: 1613px;
-  height: 603px;
-  margin:59px 142px 0;
+    width: calc((var(--tam_screen_min) *1613) / var(--tam_desktop));
+  height: calc((var(--tam_screen_min) *603) / var(--tam_desktop));
+  margin:calc((var(--tam_screen_min) *59) / var(--tam_desktop)) calc((var(--tam_screen_min) *142) / var(--tam_desktop)) 0;
   }
   .carousel-div{
     display:inline-flex;
     position:relative;
-    width: 1613px;
-  height: 603px;
+    width: calc((var(--tam_screen_min) *1613) / var(--tam_desktop));
+  height: calc((var(--tam_screen_min) *603) / var(--tam_desktop));
   justify-content: center;
   }
   
   #carousel-item-1{
-    width: 74px;
-    height: 76px;
+    width: calc((var(--tam_screen_min) *74) / var(--tam_desktop));
+    height: calc((var(--tam_screen_min) *76) / var(--tam_desktop));
     position:absolute;
-    bottom:289px;
-    left:20px;
+    bottom:calc((var(--tam_screen_min) *289) / var(--tam_desktop));
+    left:calc((var(--tam_screen_min) *20) / var(--tam_desktop));
   }
+
   #carousel-item-2{
-    width: 112px;
-    height: 114px;
+    width: calc((var(--tam_screen_min) *112) / var(--tam_desktop));
+    height: calc((var(--tam_screen_min) *114) / var(--tam_desktop));
     position:absolute;
-    bottom: 25px;
-    left:148px;
+    bottom: calc((var(--tam_screen_min) *25) / var(--tam_desktop));
+    left:calc((var(--tam_screen_min) *148) / var(--tam_desktop));
   }
   
   #carousel-item-3{
-      margin-top:18px;
-      width: 189px;
-        height: 192px;
+      margin-top:calc((var(--tam_screen_min) *18) / var(--tam_desktop));
+      width: calc((var(--tam_screen_min) *189) / var(--tam_desktop));
+        height: calc((var(--tam_screen_min) *192) / var(--tam_desktop));
   }
   
   #carousel-item-4{
-    width: 113px;
-    height: 116px;
+    width: calc((var(--tam_screen_min) *113) / var(--tam_desktop));
+    height: calc((var(--tam_screen_min) *116) / var(--tam_desktop));
     position:absolute;
-    right:175px;
+    right:calc((var(--tam_screen_min) *175) / var(--tam_desktop));
   }
   
   #carousel-item-5{
-    width: 75px;
-    height: 76px;
+    width: calc((var(--tam_screen_min) *75) / var(--tam_desktop));
+    height: calc((var(--tam_screen_min) *76) / var(--tam_desktop));
     position:absolute;
-    bottom:261px;
+    bottom:calc((var(--tam_screen_min) *261) / var(--tam_desktop));
     right:0;
   }
   
@@ -69,76 +81,226 @@
     width: 100%;
     height: 100%;
     box-shadow:0px 10px 30px #99999933;
-    border-radius: 127px;
+    border-radius: calc((var(--tam_screen_min) *127) / var(--tam_desktop));
   }
-  
   .carousel-div .carousel-item-p{
-    width: 642px;
-    height: 122px;
+    width: calc((var(--tam_screen_min) *642) / var(--tam_desktop));
+    height: calc((var(--tam_screen_min) *122) / var(--tam_desktop));
     position:absolute;
-    left:494px;
-    margin-top: 253.77px;
+    left:calc((var(--tam_screen_min) *494) / var(--tam_desktop));
+    margin-top: calc((var(--tam_screen_min) *253.77) / var(--tam_desktop));
     text-align: center;
-  font: 400 24px/34px 'Montserrat';
-  letter-spacing: 0.48px;
+    font-family:'Montserrat';
+    font-weight: 400;
+    font-size:calc((var(--tam_screen_min) *24) / var(--tam_desktop));
+    line-height:calc((var(--tam_screen_min) *34) / var(--tam_desktop));
+ 
+  letter-spacing: calc((var(--tam_screen_min) *0.48) / var(--tam_desktop));
   color: #333333;
   opacity: 1;
   }
   
-  .carousel-div .carousel-item-name{
-    width: 244px;
+  .carousel-div .carousel-item-name h3 {
+    width:  calc((var(--tam_screen_min) *244) / var(--tam_desktop));
     position:absolute;
-    left:691px;
-  height: 23px;
-  bottom: 250px;
+    left: calc((var(--tam_screen_min) *691) / var(--tam_desktop));
+  height:  calc((var(--tam_screen_min) *23) / var(--tam_desktop));
+  bottom:  calc((var(--tam_screen_min) *250) / var(--tam_desktop));
   text-align: center;
-  font: 500 19px/36px 'Montserrat';
-  letter-spacing: 0.38px;
+  font-family:'Montserrat';
+  font-weight: 500;
+  font-size:calc((var(--tam_screen_min) *19) / var(--tam_desktop));
+  line-height: calc((var(--tam_screen_min) *36) / var(--tam_desktop));
+ 
+  letter-spacing:calc((var(--tam_screen_min) *0.38) / var(--tam_desktop));
   color: #222222;
   opacity: 1;
   }
   
-  .carousel-div .carousel-item-work{
+  .carousel-div .carousel-item-work h4{
     position:absolute;
-    left:738px;
-    width: 154px;
-  height: 20px;
-  bottom:177px;
+    left:calc((var(--tam_screen_min) *738) / var(--tam_desktop));
+    width: calc((var(--tam_screen_min) *154) / var(--tam_desktop));
+  height: calc((var(--tam_screen_min) *20) / var(--tam_desktop));
+  bottom:calc((var(--tam_screen_min) *177) / var(--tam_desktop));
   text-align: center;
-  font: 400 17px/36px 'Montserrat';
-  letter-spacing: 0.34px;
+  font-family:"Montserrat";
+  font-size:calc((var(--tam_screen_min) *17) / var(--tam_desktop));
+  font-weight: 400;
+  line-height: calc((var(--tam_screen_min) *36) / var(--tam_desktop));
+ 
+  letter-spacing: calc((var(--tam_screen_min) *0.34) / var(--tam_desktop));
   color: #222222;
   opacity: 1;
   }
   
   .carousel-div .quote-left{
     position:absolute;
-    top:238px;
-    left:396.76px;
+    width:calc((var(--tam_screen_min) *50) / var(--tam_desktop));
+    height:calc((var(--tam_screen_min) *34) / var(--tam_desktop));
+    top:calc((var(--tam_screen_min) *238) / var(--tam_desktop));
+    left:calc((var(--tam_screen_min) *396.76) / var(--tam_desktop));
   
   }
   
   .carousel-div .quote-right{
     position:absolute;
-    top:238px;
-    right:379px;
+    width:calc((var(--tam_screen_min) *50) / var(--tam_desktop));
+    height:calc((var(--tam_screen_min) *34) / var(--tam_desktop));
+    top:calc((var(--tam_screen_min) *238) / var(--tam_desktop));
+    right:calc((var(--tam_screen_min) *379) / var(--tam_desktop));
     
   }
- 
+
+ .quote-right img , .quote-left img{
+  width:100%;
+  height:100%;
+ }
   .icon-container {
     position:absolute;
-    bottom:43.83px;
+    bottom:calc((var(--tam_screen_min) *43.83) / var(--tam_desktop));
   }
-  /*
-  .icon-control {
-    background: #ffffff 0% 0% no-repeat padding-box;
-    box-shadow: 0px 10px 30px #99999933;
+}
+  @media (min-width:1920px) and (max-width:1924px){
+    .info6{
+      margin-top:237px;
+    }
+    
+    .info6-title{
+      text-align:center;
+    }
+    
+    .info6-title h3{
+      font: 400 43px/55px 'Montserrat';
+      letter-spacing: 0;
+      color: #222222;
+    }
+    .info6-title h3 strong{
+      font-weight: 600;
+    
+    }
+    .carousel-container{
+      
+      width: 1613px;
+    height: 603px;
+    margin:59px 142px 0;
+    }
+    .carousel-div{
+      display:inline-flex;
+      position:relative;
+      width: 1613px;
+    height: 603px;
+    justify-content: center;
+    }
+    
+    #carousel-item-1{
+      width: 74px;
+      height: 76px;
+      position:absolute;
+      bottom:289px;
+      left:20px;
+    }
+    #carousel-item-2{
+      width: 112px;
+      height: 114px;
+      position:absolute;
+      bottom: 25px;
+      left:148px;
+    }
+    
+    #carousel-item-3{
+        margin-top:18px;
+        width: 189px;
+          height: 192px;
+    }
+    
+    #carousel-item-4{
+      width: 113px;
+      height: 116px;
+      position:absolute;
+      right:175px;
+    }
+    
+    #carousel-item-5{
+      width: 75px;
+      height: 76px;
+      position:absolute;
+      bottom:261px;
+      right:0;
+    }
+    
+    .carousel-div .carousel-div-item img{
+      width: 100%;
+      height: 100%;
+      box-shadow:0px 10px 30px #99999933;
+      border-radius: 127px;
+    }
+    
+    .carousel-div .carousel-item-p{
+      width: 642px;
+      height: 122px;
+      position:absolute;
+      left:494px;
+      margin-top: 253.77px;
+      text-align: center;
+    font: 400 24px/34px 'Montserrat';
+    letter-spacing: 0.48px;
+    color: #333333;
     opacity: 1;
+    }
+    
+    .carousel-div .carousel-item-name h3{
+      width: 244px;
+      position:absolute;
+      left:691px;
+    height: 23px;
+    bottom: 250px;
+    text-align: center;
+    font: 500 19px/36px 'Montserrat';
+    letter-spacing: 0.38px;
+    color: #222222;
+    opacity: 1;
+    }
+    
+    .carousel-div .carousel-item-work h4{
+      position:absolute;
+      left:738px;
+      width: 154px;
+    height: 20px;
+    bottom:177px;
+    text-align: center;
+    font: 400 17px/36px 'Montserrat';
+    letter-spacing: 0.34px;
+    color: #222222;
+    opacity: 1;
+    }
+    
+    .carousel-div .quote-left{
+      position:absolute;
+      width:50px;
+      height:34px;
+      top:238px;
+      left:396.76px;
+    
+    }
+    
+    .carousel-div .quote-right{
+      position:absolute;
+      width:50px;
+      height:34px;
+      top:238px;
+      right:379px;
+      
+    }
+   
+    .icon-container {
+      position:absolute;
+      bottom:43.83px;
+    }
+    .quote-right img , .quote-left img{
+      width:100%;
+      height:100%;
+     }
+    
+  }
   
-    display: grid;
-    justify-items: center;
-    align-items: center;
-    width: 60px;
-    height: 60px;
-    border-radius: 100%;
-  } */

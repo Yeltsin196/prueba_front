@@ -1,4 +1,4 @@
-@media (min-width: 1024px) {
+@media (min-width: 1024px) and (max-width:1028px) {
   :host {
     --tam_desktop: 1920;
     --tam_screen_max: 1023;
@@ -62,6 +62,30 @@
   .learn-more {
     padding-top: calc((var(--tam_screen_min) *27) / var(--tam_desktop)) ;
     padding-bottom: calc((var(--tam_screen_min) *33) / var(--tam_desktop)) ;
+  }
+  #img-1 img{
+    width: calc((var(--tam_screen_min) *257) / var(--tam_desktop)) ;
+    height: calc((var(--tam_screen_min) *204) / var(--tam_desktop)) ;
+  }
+   #img-2 img{
+    width: calc((var(--tam_screen_min) *274) / var(--tam_desktop)) ;
+    height: calc((var(--tam_screen_min) *161) / var(--tam_desktop)) ;
+  }
+  #img-3 img{
+    width: calc((var(--tam_screen_min) *181) / var(--tam_desktop)) ;
+    height: calc((var(--tam_screen_min) *156) / var(--tam_desktop)) ;
+  }
+  #img-4 img{
+    width: calc((var(--tam_screen_min) *228) / var(--tam_desktop)) ;
+    height: calc((var(--tam_screen_min) *164) / var(--tam_desktop)) ;
+  }
+  #img-5 img{
+    width: calc((var(--tam_screen_min) *95) / var(--tam_desktop)) ;
+    height: calc((var(--tam_screen_min) *182) / var(--tam_desktop)) ;
+  }
+  #img-6 img{
+    width: calc((var(--tam_screen_min) *268) / var(--tam_desktop)) ;
+    height: calc((var(--tam_screen_min) *108) / var(--tam_desktop)) ;
   }
 }
 @media (min-width: 1920px) {

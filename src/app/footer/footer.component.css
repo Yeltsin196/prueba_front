@@ -38,6 +38,112 @@
     background: transparent linear-gradient(4deg, #ffffff 0%, #dff0ff 100%) 0%
       0% no-repeat padding-box;
   }
+    /* estilos para cuadros y circulos*/
+    .bubble-tipe {
+      position: absolute;
+      background: #0000ff 0% 0% no-repeat padding-box;
+      opacity: 0.03;
+    }
+    .loader {
+      border-right: calc((var(--tam_screen_min) *12) / var(--tam_desktop)) solid #0000ff;
+      border-left: calc((var(--tam_screen_min) *12) / var(--tam_desktop)) solid #0000ff;
+      border-radius: 50%;
+      position: absolute;
+  
+      border-top: calc((var(--tam_screen_min) *12) / var(--tam_desktop)) solid #0000ff;
+      border-bottom: calc((var(--tam_screen_min) *12) / var(--tam_desktop)) solid #0000ff;
+      opacity: 0.03;
+    }
+    .b-max{
+      width:calc((var(--tam_screen_min) *64) / var(--tam_desktop));
+      height:calc((var(--tam_screen_min) *60) / var(--tam_desktop));
+    }
+    .b-max2{
+      width:calc((var(--tam_screen_min) *72) / var(--tam_desktop));
+      height:calc((var(--tam_screen_min) *68) / var(--tam_desktop));
+    }
+    .b-med{
+      width:calc((var(--tam_screen_min) *57) / var(--tam_desktop));
+      height:calc((var(--tam_screen_min) *54) / var(--tam_desktop));
+    }
+    .b-min{
+      width:calc((var(--tam_screen_min) *35) / var(--tam_desktop));
+      height:calc((var(--tam_screen_min) *30) / var(--tam_desktop));
+    }
+    
+    #b1{
+      top: calc((var(--tam_screen_min) *100.19) / var(--tam_desktop));
+      left: calc((var(--tam_screen_min) *668) / var(--tam_desktop));
+    }
+    #b2{
+      right: calc((var(--tam_screen_min) *594) / var(--tam_desktop));
+      bottom: calc((var(--tam_screen_min) *74) / var(--tam_desktop));
+  
+    }
+    #b3{
+      bottom: calc((var(--tam_screen_min) *54.59) / var(--tam_desktop));
+      right: calc((var(--tam_screen_min) *566) / var(--tam_desktop));
+    }
+  
+    #b4{
+      right: calc((var(--tam_screen_min) *416) / var(--tam_desktop));
+      bottom: calc((var(--tam_screen_min) *119.58) / var(--tam_desktop));
+    }
+    #b5{
+      bottom: calc((var(--tam_screen_min) *98) / var(--tam_desktop));
+      right: calc((var(--tam_screen_min) *393) / var(--tam_desktop));
+    }
+    .cr-big{
+      width:calc((var(--tam_screen_min) *62) / var(--tam_desktop));
+      height:calc((var(--tam_screen_min) *58) / var(--tam_desktop));
+    }
+    .cr-max{
+      width: calc((var(--tam_screen_min) *41) / var(--tam_desktop));
+      height:calc((var(--tam_screen_min) *39) / var(--tam_desktop));
+    }
+    .cr-med{
+      width: calc((var(--tam_screen_min) *48) / var(--tam_desktop));
+      height:calc((var(--tam_screen_min) *35) / var(--tam_desktop));
+    }
+    .cr-min{
+      width: calc((var(--tam_screen_min) *49) / var(--tam_desktop));
+      height:calc((var(--tam_screen_min) *46) / var(--tam_desktop));
+    }
+  
+    #cr-1{
+      bottom: calc((var(--tam_screen_min) *29) / var(--tam_desktop));
+      left: calc((var(--tam_screen_min) *68) / var(--tam_desktop));
+    }
+  
+    #cr-2{
+      bottom: calc((var(--tam_screen_min) *133) / var(--tam_desktop));
+      left: calc((var(--tam_screen_min) *221) / var(--tam_desktop));
+    }
+  
+    #cr-3{
+      bottom: calc((var(--tam_screen_min) *42) / var(--tam_desktop));
+      left: calc((var(--tam_screen_min) *636) / var(--tam_desktop));
+  
+    }
+    #cr-4{
+      bottom: calc((var(--tam_screen_min) *63) / var(--tam_desktop));
+      left: calc((var(--tam_screen_min) *998) / var(--tam_desktop));
+    }
+  
+    #cr-5{
+      right: calc((var(--tam_screen_min) *228) / var(--tam_desktop));
+      top: calc((var(--tam_screen_min) *49) / var(--tam_desktop));
+    }
+  
+    #cr-6{
+      right: calc((var(--tam_screen_min) *73) / var(--tam_desktop));
+      bottom: calc((var(--tam_screen_min) *154) / var(--tam_desktop));
+    }
+  
+    #cr-7{
+      right: calc((var(--tam_screen_min) *178) / var(--tam_desktop));
+      bottom: calc((var(--tam_screen_min) *0.26) / var(--tam_desktop));
+    }
    /*div con corte triagunlar*/
   .container-info {
    top: -1px;
@@ -168,7 +274,15 @@
     --tam_screen_max: 1679;
     --tam_screen_min: 1440px;
   }
-
+  .logo-shok-big{
+    margin: calc((var(--tam_screen_min) *122.13) / var(--tam_desktop)) 0 calc((var(--tam_screen_min) *100) / var(--tam_desktop)) calc((var(--tam_screen_min) *714) / var(--tam_desktop));
+    width: calc((var(--tam_screen_min) *500) / var(--tam_desktop));
+    height: calc((var(--tam_screen_min) *28) / var(--tam_desktop));
+  }
+  .logo-shok-big img{
+    width:100%;
+    height:100%;
+  }
   /*conteiner global*/
   .footer-container {
     width: calc((var(--tam_screen_min) * 1934) / var(--tam_desktop));
@@ -194,6 +308,112 @@
     background: transparent linear-gradient(4deg, #ffffff 0%, #dff0ff 100%) 0%
       0% no-repeat padding-box;
   }
+    /* estilos para cuadros y circulos*/
+    .bubble-tipe {
+      position: absolute;
+      background: #0000ff 0% 0% no-repeat padding-box;
+      opacity: 0.03;
+    }
+    .loader {
+      border-right: calc((var(--tam_screen_min) *12) / var(--tam_desktop)) solid #0000ff;
+      border-left: calc((var(--tam_screen_min) *12) / var(--tam_desktop)) solid #0000ff;
+      border-radius: 50%;
+      position: absolute;
+  
+      border-top: calc((var(--tam_screen_min) *12) / var(--tam_desktop)) solid #0000ff;
+      border-bottom: calc((var(--tam_screen_min) *12) / var(--tam_desktop)) solid #0000ff;
+      opacity: 0.03;
+    }
+    .b-max{
+      width:calc((var(--tam_screen_min) *64) / var(--tam_desktop));
+      height:calc((var(--tam_screen_min) *60) / var(--tam_desktop));
+    }
+    .b-max2{
+      width:calc((var(--tam_screen_min) *72) / var(--tam_desktop));
+      height:calc((var(--tam_screen_min) *68) / var(--tam_desktop));
+    }
+    .b-med{
+      width:calc((var(--tam_screen_min) *57) / var(--tam_desktop));
+      height:calc((var(--tam_screen_min) *54) / var(--tam_desktop));
+    }
+    .b-min{
+      width:calc((var(--tam_screen_min) *35) / var(--tam_desktop));
+      height:calc((var(--tam_screen_min) *30) / var(--tam_desktop));
+    }
+    
+    #b1{
+      top: calc((var(--tam_screen_min) *100.19) / var(--tam_desktop));
+      left: calc((var(--tam_screen_min) *668) / var(--tam_desktop));
+    }
+    #b2{
+      right: calc((var(--tam_screen_min) *594) / var(--tam_desktop));
+      bottom: calc((var(--tam_screen_min) *74) / var(--tam_desktop));
+  
+    }
+    #b3{
+      bottom: calc((var(--tam_screen_min) *54.59) / var(--tam_desktop));
+      right: calc((var(--tam_screen_min) *566) / var(--tam_desktop));
+    }
+  
+    #b4{
+      right: calc((var(--tam_screen_min) *416) / var(--tam_desktop));
+      bottom: calc((var(--tam_screen_min) *119.58) / var(--tam_desktop));
+    }
+    #b5{
+      bottom: calc((var(--tam_screen_min) *98) / var(--tam_desktop));
+      right: calc((var(--tam_screen_min) *393) / var(--tam_desktop));
+    }
+    .cr-big{
+      width:calc((var(--tam_screen_min) *62) / var(--tam_desktop));
+      height:calc((var(--tam_screen_min) *58) / var(--tam_desktop));
+    }
+    .cr-max{
+      width: calc((var(--tam_screen_min) *41) / var(--tam_desktop));
+      height:calc((var(--tam_screen_min) *39) / var(--tam_desktop));
+    }
+    .cr-med{
+      width: calc((var(--tam_screen_min) *48) / var(--tam_desktop));
+      height:calc((var(--tam_screen_min) *35) / var(--tam_desktop));
+    }
+    .cr-min{
+      width: calc((var(--tam_screen_min) *49) / var(--tam_desktop));
+      height:calc((var(--tam_screen_min) *46) / var(--tam_desktop));
+    }
+  
+    #cr-1{
+      bottom: calc((var(--tam_screen_min) *29) / var(--tam_desktop));
+      left: calc((var(--tam_screen_min) *68) / var(--tam_desktop));
+    }
+  
+    #cr-2{
+      bottom: calc((var(--tam_screen_min) *133) / var(--tam_desktop));
+      left: calc((var(--tam_screen_min) *221) / var(--tam_desktop));
+    }
+  
+    #cr-3{
+      bottom: calc((var(--tam_screen_min) *42) / var(--tam_desktop));
+      left: calc((var(--tam_screen_min) *636) / var(--tam_desktop));
+  
+    }
+    #cr-4{
+      bottom: calc((var(--tam_screen_min) *63) / var(--tam_desktop));
+      left: calc((var(--tam_screen_min) *998) / var(--tam_desktop));
+    }
+  
+    #cr-5{
+      right: calc((var(--tam_screen_min) *228) / var(--tam_desktop));
+      top: calc((var(--tam_screen_min) *49) / var(--tam_desktop));
+    }
+  
+    #cr-6{
+      right: calc((var(--tam_screen_min) *73) / var(--tam_desktop));
+      bottom: calc((var(--tam_screen_min) *154) / var(--tam_desktop));
+    }
+  
+    #cr-7{
+      right: calc((var(--tam_screen_min) *178) / var(--tam_desktop));
+      bottom: calc((var(--tam_screen_min) *0.26) / var(--tam_desktop));
+    }
    /*div con corte triagunlar*/
   .container-info {
    top: -1px;
@@ -358,6 +578,113 @@
     background: transparent linear-gradient(4deg, #ffffff 0%, #dff0ff 100%) 0%
       0% no-repeat padding-box;
   }
+
+    /* estilos para cuadros y circulos*/
+    .bubble-tipe {
+      position: absolute;
+      background: #0000ff 0% 0% no-repeat padding-box;
+      opacity: 0.03;
+    }
+    .loader {
+      border-right: calc((var(--tam_screen_min) *12) / var(--tam_desktop)) solid #0000ff;
+      border-left: calc((var(--tam_screen_min) *12) / var(--tam_desktop)) solid #0000ff;
+      border-radius: 50%;
+      position: absolute;
+  
+      border-top: calc((var(--tam_screen_min) *12) / var(--tam_desktop)) solid #0000ff;
+      border-bottom: calc((var(--tam_screen_min) *12) / var(--tam_desktop)) solid #0000ff;
+      opacity: 0.03;
+    }
+    .b-max{
+      width:calc((var(--tam_screen_min) *64) / var(--tam_desktop));
+      height:calc((var(--tam_screen_min) *60) / var(--tam_desktop));
+    }
+    .b-max2{
+      width:calc((var(--tam_screen_min) *72) / var(--tam_desktop));
+      height:calc((var(--tam_screen_min) *68) / var(--tam_desktop));
+    }
+    .b-med{
+      width:calc((var(--tam_screen_min) *57) / var(--tam_desktop));
+      height:calc((var(--tam_screen_min) *54) / var(--tam_desktop));
+    }
+    .b-min{
+      width:calc((var(--tam_screen_min) *35) / var(--tam_desktop));
+      height:calc((var(--tam_screen_min) *30) / var(--tam_desktop));
+    }
+    
+    #b1{
+      top: calc((var(--tam_screen_min) *100.19) / var(--tam_desktop));
+      left: calc((var(--tam_screen_min) *668) / var(--tam_desktop));
+    }
+    #b2{
+      right: calc((var(--tam_screen_min) *594) / var(--tam_desktop));
+      bottom: calc((var(--tam_screen_min) *74) / var(--tam_desktop));
+  
+    }
+    #b3{
+      bottom: calc((var(--tam_screen_min) *54.59) / var(--tam_desktop));
+      right: calc((var(--tam_screen_min) *566) / var(--tam_desktop));
+    }
+  
+    #b4{
+      right: calc((var(--tam_screen_min) *416) / var(--tam_desktop));
+      bottom: calc((var(--tam_screen_min) *119.58) / var(--tam_desktop));
+    }
+    #b5{
+      bottom: calc((var(--tam_screen_min) *98) / var(--tam_desktop));
+      right: calc((var(--tam_screen_min) *393) / var(--tam_desktop));
+    }
+    .cr-big{
+      width:calc((var(--tam_screen_min) *62) / var(--tam_desktop));
+      height:calc((var(--tam_screen_min) *58) / var(--tam_desktop));
+    }
+    .cr-max{
+      width: calc((var(--tam_screen_min) *41) / var(--tam_desktop));
+      height:calc((var(--tam_screen_min) *39) / var(--tam_desktop));
+    }
+    .cr-med{
+      width: calc((var(--tam_screen_min) *48) / var(--tam_desktop));
+      height:calc((var(--tam_screen_min) *35) / var(--tam_desktop));
+    }
+    .cr-min{
+      width: calc((var(--tam_screen_min) *49) / var(--tam_desktop));
+      height:calc((var(--tam_screen_min) *46) / var(--tam_desktop));
+    }
+  
+    #cr-1{
+      bottom: calc((var(--tam_screen_min) *29) / var(--tam_desktop));
+      left: calc((var(--tam_screen_min) *68) / var(--tam_desktop));
+    }
+  
+    #cr-2{
+      bottom: calc((var(--tam_screen_min) *133) / var(--tam_desktop));
+      left: calc((var(--tam_screen_min) *221) / var(--tam_desktop));
+    }
+  
+    #cr-3{
+      bottom: calc((var(--tam_screen_min) *42) / var(--tam_desktop));
+      left: calc((var(--tam_screen_min) *636) / var(--tam_desktop));
+  
+    }
+    #cr-4{
+      bottom: calc((var(--tam_screen_min) *63) / var(--tam_desktop));
+      left: calc((var(--tam_screen_min) *998) / var(--tam_desktop));
+    }
+  
+    #cr-5{
+      right: calc((var(--tam_screen_min) *228) / var(--tam_desktop));
+      top: calc((var(--tam_screen_min) *49) / var(--tam_desktop));
+    }
+  
+    #cr-6{
+      right: calc((var(--tam_screen_min) *73) / var(--tam_desktop));
+      bottom: calc((var(--tam_screen_min) *154) / var(--tam_desktop));
+    }
+  
+    #cr-7{
+      right: calc((var(--tam_screen_min) *178) / var(--tam_desktop));
+      bottom: calc((var(--tam_screen_min) *0.26) / var(--tam_desktop));
+    }
    /*div con corte triagunlar*/
   .container-info {
    top: -1px;
@@ -522,6 +849,112 @@
     background: transparent linear-gradient(4deg, #ffffff 0%, #dff0ff 100%) 0%
       0% no-repeat padding-box;
   }
+    /* estilos para cuadros y circulos*/
+    .bubble-tipe {
+      position: absolute;
+      background: #0000ff 0% 0% no-repeat padding-box;
+      opacity: 0.03;
+    }
+    .loader {
+      border-right: calc((var(--tam_screen_min) *12) / var(--tam_desktop)) solid #0000ff;
+      border-left: calc((var(--tam_screen_min) *12) / var(--tam_desktop)) solid #0000ff;
+      border-radius: 50%;
+      position: absolute;
+  
+      border-top: calc((var(--tam_screen_min) *12) / var(--tam_desktop)) solid #0000ff;
+      border-bottom: calc((var(--tam_screen_min) *12) / var(--tam_desktop)) solid #0000ff;
+      opacity: 0.03;
+    }
+    .b-max{
+      width:calc((var(--tam_screen_min) *64) / var(--tam_desktop));
+      height:calc((var(--tam_screen_min) *60) / var(--tam_desktop));
+    }
+    .b-max2{
+      width:calc((var(--tam_screen_min) *72) / var(--tam_desktop));
+      height:calc((var(--tam_screen_min) *68) / var(--tam_desktop));
+    }
+    .b-med{
+      width:calc((var(--tam_screen_min) *57) / var(--tam_desktop));
+      height:calc((var(--tam_screen_min) *54) / var(--tam_desktop));
+    }
+    .b-min{
+      width:calc((var(--tam_screen_min) *35) / var(--tam_desktop));
+      height:calc((var(--tam_screen_min) *30) / var(--tam_desktop));
+    }
+    
+    #b1{
+      top: calc((var(--tam_screen_min) *100.19) / var(--tam_desktop));
+      left: calc((var(--tam_screen_min) *668) / var(--tam_desktop));
+    }
+    #b2{
+      right: calc((var(--tam_screen_min) *594) / var(--tam_desktop));
+      bottom: calc((var(--tam_screen_min) *74) / var(--tam_desktop));
+  
+    }
+    #b3{
+      bottom: calc((var(--tam_screen_min) *54.59) / var(--tam_desktop));
+      right: calc((var(--tam_screen_min) *566) / var(--tam_desktop));
+    }
+  
+    #b4{
+      right: calc((var(--tam_screen_min) *416) / var(--tam_desktop));
+      bottom: calc((var(--tam_screen_min) *119.58) / var(--tam_desktop));
+    }
+    #b5{
+      bottom: calc((var(--tam_screen_min) *98) / var(--tam_desktop));
+      right: calc((var(--tam_screen_min) *393) / var(--tam_desktop));
+    }
+    .cr-big{
+      width:calc((var(--tam_screen_min) *62) / var(--tam_desktop));
+      height:calc((var(--tam_screen_min) *58) / var(--tam_desktop));
+    }
+    .cr-max{
+      width: calc((var(--tam_screen_min) *41) / var(--tam_desktop));
+      height:calc((var(--tam_screen_min) *39) / var(--tam_desktop));
+    }
+    .cr-med{
+      width: calc((var(--tam_screen_min) *48) / var(--tam_desktop));
+      height:calc((var(--tam_screen_min) *35) / var(--tam_desktop));
+    }
+    .cr-min{
+      width: calc((var(--tam_screen_min) *49) / var(--tam_desktop));
+      height:calc((var(--tam_screen_min) *46) / var(--tam_desktop));
+    }
+  
+    #cr-1{
+      bottom: calc((var(--tam_screen_min) *29) / var(--tam_desktop));
+      left: calc((var(--tam_screen_min) *68) / var(--tam_desktop));
+    }
+  
+    #cr-2{
+      bottom: calc((var(--tam_screen_min) *133) / var(--tam_desktop));
+      left: calc((var(--tam_screen_min) *221) / var(--tam_desktop));
+    }
+  
+    #cr-3{
+      bottom: calc((var(--tam_screen_min) *42) / var(--tam_desktop));
+      left: calc((var(--tam_screen_min) *636) / var(--tam_desktop));
+  
+    }
+    #cr-4{
+      bottom: calc((var(--tam_screen_min) *63) / var(--tam_desktop));
+      left: calc((var(--tam_screen_min) *998) / var(--tam_desktop));
+    }
+  
+    #cr-5{
+      right: calc((var(--tam_screen_min) *228) / var(--tam_desktop));
+      top: calc((var(--tam_screen_min) *49) / var(--tam_desktop));
+    }
+  
+    #cr-6{
+      right: calc((var(--tam_screen_min) *73) / var(--tam_desktop));
+      bottom: calc((var(--tam_screen_min) *154) / var(--tam_desktop));
+    }
+  
+    #cr-7{
+      right: calc((var(--tam_screen_min) *178) / var(--tam_desktop));
+      bottom: calc((var(--tam_screen_min) *0.26) / var(--tam_desktop));
+    }
    /*div con corte triagunlar*/
   .container-info {
    top: -1px;
@@ -687,6 +1120,112 @@
     background: transparent linear-gradient(4deg, #ffffff 0%, #dff0ff 100%) 0%
       0% no-repeat padding-box;
   }
+    /* estilos para cuadros y circulos*/
+  .bubble-tipe {
+    position: absolute;
+    background: #0000ff 0% 0% no-repeat padding-box;
+    opacity: 0.03;
+  }
+  .loader {
+    border-right: calc((var(--tam_screen_min) *12) / var(--tam_desktop)) solid #0000ff;
+    border-left: calc((var(--tam_screen_min) *12) / var(--tam_desktop)) solid #0000ff;
+    border-radius: 50%;
+    position: absolute;
+
+    border-top: calc((var(--tam_screen_min) *12) / var(--tam_desktop)) solid #0000ff;
+    border-bottom: calc((var(--tam_screen_min) *12) / var(--tam_desktop)) solid #0000ff;
+    opacity: 0.03;
+  }
+  .b-max{
+    width:calc((var(--tam_screen_min) *64) / var(--tam_desktop));
+    height:calc((var(--tam_screen_min) *60) / var(--tam_desktop));
+  }
+  .b-max2{
+    width:calc((var(--tam_screen_min) *72) / var(--tam_desktop));
+    height:calc((var(--tam_screen_min) *68) / var(--tam_desktop));
+  }
+  .b-med{
+    width:calc((var(--tam_screen_min) *57) / var(--tam_desktop));
+    height:calc((var(--tam_screen_min) *54) / var(--tam_desktop));
+  }
+  .b-min{
+    width:calc((var(--tam_screen_min) *35) / var(--tam_desktop));
+    height:calc((var(--tam_screen_min) *30) / var(--tam_desktop));
+  }
+  
+  #b1{
+    top: calc((var(--tam_screen_min) *100.19) / var(--tam_desktop));
+    left: calc((var(--tam_screen_min) *668) / var(--tam_desktop));
+  }
+  #b2{
+    right: calc((var(--tam_screen_min) *594) / var(--tam_desktop));
+    bottom: calc((var(--tam_screen_min) *74) / var(--tam_desktop));
+
+  }
+  #b3{
+    bottom: calc((var(--tam_screen_min) *54.59) / var(--tam_desktop));
+    right: calc((var(--tam_screen_min) *566) / var(--tam_desktop));
+  }
+
+  #b4{
+    right: calc((var(--tam_screen_min) *416) / var(--tam_desktop));
+    bottom: calc((var(--tam_screen_min) *119.58) / var(--tam_desktop));
+  }
+  #b5{
+    bottom: calc((var(--tam_screen_min) *98) / var(--tam_desktop));
+    right: calc((var(--tam_screen_min) *393) / var(--tam_desktop));
+  }
+  .cr-big{
+    width:calc((var(--tam_screen_min) *62) / var(--tam_desktop));
+    height:calc((var(--tam_screen_min) *58) / var(--tam_desktop));
+  }
+  .cr-max{
+    width: calc((var(--tam_screen_min) *41) / var(--tam_desktop));
+    height:calc((var(--tam_screen_min) *39) / var(--tam_desktop));
+  }
+  .cr-med{
+    width: calc((var(--tam_screen_min) *48) / var(--tam_desktop));
+    height:calc((var(--tam_screen_min) *35) / var(--tam_desktop));
+  }
+  .cr-min{
+    width: calc((var(--tam_screen_min) *49) / var(--tam_desktop));
+    height:calc((var(--tam_screen_min) *46) / var(--tam_desktop));
+  }
+
+  #cr-1{
+    bottom: calc((var(--tam_screen_min) *29) / var(--tam_desktop));
+    left: calc((var(--tam_screen_min) *68) / var(--tam_desktop));
+  }
+
+  #cr-2{
+    bottom: calc((var(--tam_screen_min) *133) / var(--tam_desktop));
+    left: calc((var(--tam_screen_min) *221) / var(--tam_desktop));
+  }
+
+  #cr-3{
+    bottom: calc((var(--tam_screen_min) *42) / var(--tam_desktop));
+    left: calc((var(--tam_screen_min) *636) / var(--tam_desktop));
+
+  }
+  #cr-4{
+    bottom: calc((var(--tam_screen_min) *63) / var(--tam_desktop));
+    left: calc((var(--tam_screen_min) *998) / var(--tam_desktop));
+  }
+
+  #cr-5{
+    right: calc((var(--tam_screen_min) *228) / var(--tam_desktop));
+    top: calc((var(--tam_screen_min) *49) / var(--tam_desktop));
+  }
+
+  #cr-6{
+    right: calc((var(--tam_screen_min) *73) / var(--tam_desktop));
+    bottom: calc((var(--tam_screen_min) *154) / var(--tam_desktop));
+  }
+
+  #cr-7{
+    right: calc((var(--tam_screen_min) *178) / var(--tam_desktop));
+    bottom: calc((var(--tam_screen_min) *0.26) / var(--tam_desktop));
+  }
    /*div con corte triagunlar*/
   .container-info {
    top: -1px;
@@ -826,6 +1365,7 @@
     /*    height: 564px; */
   }
   .footer-contain {
+    position:relative;
     width: 1932px;
     height: 290px;
     margin-top: 1px;
@@ -833,6 +1373,112 @@
       0% no-repeat padding-box;
   }
 
+  /* estilos para cuadros y circulos*/
+  .bubble-tipe {
+    position: absolute;
+    background: #0000ff 0% 0% no-repeat padding-box;
+    opacity: 0.03;
+  }
+  .loader {
+    border-right: 12px solid #0000ff;
+    border-left: 12px solid #0000ff;
+    border-radius: 50%;
+    position: absolute;
+
+    border-top: 12px solid #0000ff;
+    border-bottom: 12px solid #0000ff;
+    opacity: 0.03;
+  }
+  .b-max{
+    width:64px;
+    height:60px;
+  }
+  .b-max2{
+    width:72px;
+    height:68px;
+  }
+  .b-med{
+    width:57px;
+    height:54px;
+  }
+  .b-min{
+    width:35px;
+    height:30px;
+  }
+  
+  #b1{
+    top: 100.19px;
+    left: 668px;
+  }
+  #b2{
+    right: 594px;
+    bottom: 74px;
+
+  }
+  #b3{
+    bottom: 54.59px;
+    right: 566px;
+  }
+
+  #b4{
+    right: 416px;
+    bottom: 119.58px;
+  }
+  #b5{
+    bottom: 98px;
+    right: 393px;
+  }
+  .cr-big{
+    width:62px;
+    height:58px;
+  }
+  .cr-max{
+    width: 41px;
+    height:39px;
+  }
+  .cr-med{
+    width: 48px;
+    height:35px;
+  }
+  .cr-min{
+    width: 49px;
+    height:46px;
+  }
+
+  #cr-1{
+    bottom: 29px;
+    left: 68px;
+  }
+
+  #cr-2{
+    bottom: 133px;
+    left: 221px;
+  }
+
+  #cr-3{
+    bottom: 42px;
+    left: 636px;
+
+  }
+  #cr-4{
+    bottom: 63px;
+    left: 998px;
+  }
+
+  #cr-5{
+    right: 228px;
+    top: 49px;
+  }
+
+  #cr-6{
+    right: 73px;
+    bottom: 154px;
+  }
+
+  #cr-7{
+    right: 178px;
+    bottom: 0.26px;
+  }
   .container-info {
     width: 1932px;
     height: 110.13px;

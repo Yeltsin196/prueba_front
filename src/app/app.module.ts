@@ -11,14 +11,8 @@ import { HttpClientModule } from '@angular/common/http';
 import { ContactComponent } from './contact/contact.component';
 import { CarouselQuoteComponent } from './carousel-quote/carousel-quote.component';
 import { GridPartnesComponent } from './grid-partnes/grid-partnes.component';
-<<<<<<< HEAD
-import { CarouselPostsComponent } from './carousel-posts/carousel-posts.component';
-
-
-=======
 import {CarouselPostsComponent} from './carousel-posts/carousel-posts.component';
 import { FormsModule } from '@angular/forms';
->>>>>>> develop
 @NgModule({
   declarations: [
     AppComponent,
@@ -36,11 +30,6 @@ import { FormsModule } from '@angular/forms';
     GridPartnesComponent,
     
     CarouselPostsComponent,
-<<<<<<< HEAD
-    
- 
-=======
->>>>>>> develop
     
     
   ],

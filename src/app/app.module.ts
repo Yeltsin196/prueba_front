@@ -12,7 +12,7 @@ import { ContactComponent } from './contact/contact.component';
 import { CarouselQuoteComponent } from './carousel-quote/carousel-quote.component';
 import { GridPartnesComponent } from './grid-partnes/grid-partnes.component';
 import {CarouselPostsComponent} from './carousel-posts/carousel-posts.component';
-
+import { FormsModule } from '@angular/forms';
 @NgModule({
   declarations: [
     AppComponent,
@@ -35,7 +35,8 @@ import {CarouselPostsComponent} from './carousel-posts/carousel-posts.component'
   ],
   imports: [
     BrowserModule,
-    HttpClientModule 
+    HttpClientModule,
+    FormsModule 
   ],
   providers: [],
   bootstrap: [AppComponent]

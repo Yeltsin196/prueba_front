@@ -7,7 +7,7 @@ import {Contact } from '../core/models/contact.model';
   styleUrls: ['./contact.component.css']
 })
 export class ContactComponent implements OnInit {
-  user:Contact ={
+ user:Contact ={
     title:'',
     body:'',
     userId:1

@@ -50,7 +50,7 @@
                 <div class="form-row ">
                   <div class="form-group col-lg-12">
                     <label for="inputProblem "><strong>Which Related Problem You Are Facing?</strong></label>
-                    <select id="inputState" class="form-control  col-lg-12" name="title" [(ngModel)]="user.title" >
+                    <select id="inputState" class="form-control  col-lg-12" name="title" [(ngModel)]="user.title" required>
                       <option selected>Select One</option>
                       
                       <option value="Aliquam, et?">Aliquam, et?</option>
@@ -62,7 +62,7 @@
                 <div class="form-row ">
                   <div  id="text-area" class="form-group col-lg-12">
                     <label for="inputMessage" class=""><strong>Type Your Message</strong></label>
-                 <!--    <input type="text" class="form-control col-lg-12" id="inputAddress" placeholder="Here goes your message" name="message"> -->
+                 
                     <textarea required  [(ngModel)]="user.body" name="body" placeholder="Here goes your message" id="" cols="20" rows="2"></textarea>
                 </div>
                 </div>

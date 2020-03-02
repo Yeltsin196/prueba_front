@@ -13,16 +13,18 @@
       <div id="cr-4" class="cr-lg loader"></div>
       <div id="cr-5" class="cr-lg loader"></div>
       <div id="cr-6" class="cr-lg loader"></div>
-      <div class="info7-container-2">
-        <div class="info7-div-title">
-          <div class="info7-title">
-            <h2>
-              Facing Problem?<br />
-              <strong>Lets Get In Touch Now</strong>
-            </h2>
-          </div>
-  
+    
+      <div class="info7-div-title">
+        <div class="info7-title">
+          <h2>
+            Facing Problem?<br />
+            <strong>Lets Get In Touch Now</strong>
+          </h2>
         </div>
+
+      </div>
+      <div class="info7-container-2">
+        
         <div class="contenido-info7">
           <div class="form-container">
             <div class="form-div">
@@ -32,25 +34,25 @@
                   <div class="form-group col-md-5 mr-4">
                  
                     <label for="inputFirstName"> <strong>First Name</strong></label>
-                    <input type="text" class="form-control" id="inputFirstName" placeholder="Robert Lee" name="firstName">
+                    <input required type="text" class="form-control" id="inputFirstName" placeholder="Robert Lee" name="firstName">
                   </div>
                   <div class="form-group col-md-5">
                     <label for="inputLastName"><strong>Last Name</strong></label>
-                    <input type="text" class="form-control" id="inputLastName" placeholder="Anderson"  name="lastName">
+                    <input required type="text" class="form-control" id="inputLastName" placeholder="Anderson"  name="lastName">
                   </div>
                 </div>
                
                 <div class="form-row ">
                 <div class="form-group col-lg-12 col-md-12">
                   <label for="inputEmail"><strong>Email</strong></label>
-                  <input   type="email" class="form-control" id="inputEmail" placeholder="kevin.jones@mail.com">
+                  <input required  type="email" class="form-control" id="inputEmail" placeholder="kevin.jones@mail.com">
                 </div>
               </div>
                 
                 <div class="form-row ">
                   <div class="form-group col-lg-12">
                     <label for="inputProblem "><strong>Which Related Problem You Are Facing?</strong></label>
-                    <select id="inputState" class="form-control  col-lg-12" name="title" [(ngModel)]="user.title" required>
+                    <select id="inputState" class="form-control  col-lg-12" name="title" [(ngModel)]="user.title" >
                       <option selected>Select One</option>
                       
                       <option value="Aliquam, et?">Aliquam, et?</option>
@@ -66,7 +68,7 @@
                     <textarea required  [(ngModel)]="user.body" name="body" placeholder="Here goes your message" id="" cols="20" rows="2"></textarea>
                 </div>
                 </div>
-                <button type="submit" class="btn btn-shok-vacio">Sign in</button>
+                <button type="submit" class="btn btn-shok-vacio">Our Works</button>
               </form>
   
   

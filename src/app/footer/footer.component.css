@@ -1,88 +1,1565 @@
+@media (min-width: 1680px) and (max-width: 1919px) {
+  :host {
+    --tam_desktop: 1920;
+    --tam_screen_max: 1919;
+    --tam_screen_min: 1680px;
+  }
+  .logo-shok-big{
+    margin: calc((var(--tam_screen_min) *122.13) / var(--tam_desktop)) 0 calc((var(--tam_screen_min) *100) / var(--tam_desktop)) calc((var(--tam_screen_min) *714) / var(--tam_desktop));
+    width: calc((var(--tam_screen_min) *500) / var(--tam_desktop));
+    height: calc((var(--tam_screen_min) *28) / var(--tam_desktop));
+  }
+  .logo-shok-big img{
+    width:100%;
+    height:100%;
+  }
+  /*conteiner global*/
+  .footer-container {
+    width: calc((var(--tam_screen_min) * 1934) / var(--tam_desktop));
 
- .footer-container{
-    width: 1934px;
- /*    height: 564px; */
+   
+  }
+  /*lista de items de cada uno de las columnas*/
+  .list li{
+   margin-bottom:10px;
+  }
+  /*el ultimo de los items no tendra margin bottom*/
+  #last{
+   margin-bottom:0px;
+  }
+
+    /*div de fondo color azulado*/
+  .footer-contain {
+   position: relative;
+   
+    width: calc((var(--tam_screen_min) * 1932) / var(--tam_desktop));
+    height: calc((var(--tam_screen_min) * 290) / var(--tam_desktop));
+    margin-top: 1px;
+    background: transparent linear-gradient(4deg, #ffffff 0%, #dff0ff 100%) 0%
+      0% no-repeat padding-box;
+  }
+    /* estilos para cuadros y circulos*/
+    .bubble-tipe {
+      position: absolute;
+      background: #0000ff 0% 0% no-repeat padding-box;
+      opacity: 0.03;
+    }
+    .loader {
+      border-right: calc((var(--tam_screen_min) *12) / var(--tam_desktop)) solid #0000ff;
+      border-left: calc((var(--tam_screen_min) *12) / var(--tam_desktop)) solid #0000ff;
+      border-radius: 50%;
+      position: absolute;
+  
+      border-top: calc((var(--tam_screen_min) *12) / var(--tam_desktop)) solid #0000ff;
+      border-bottom: calc((var(--tam_screen_min) *12) / var(--tam_desktop)) solid #0000ff;
+      opacity: 0.03;
+    }
+    .b-max{
+      width:calc((var(--tam_screen_min) *64) / var(--tam_desktop));
+      height:calc((var(--tam_screen_min) *60) / var(--tam_desktop));
+    }
+    .b-max2{
+      width:calc((var(--tam_screen_min) *72) / var(--tam_desktop));
+      height:calc((var(--tam_screen_min) *68) / var(--tam_desktop));
+    }
+    .b-med{
+      width:calc((var(--tam_screen_min) *57) / var(--tam_desktop));
+      height:calc((var(--tam_screen_min) *54) / var(--tam_desktop));
+    }
+    .b-min{
+      width:calc((var(--tam_screen_min) *35) / var(--tam_desktop));
+      height:calc((var(--tam_screen_min) *30) / var(--tam_desktop));
+    }
+    
+    #b1{
+      top: calc((var(--tam_screen_min) *100.19) / var(--tam_desktop));
+      left: calc((var(--tam_screen_min) *668) / var(--tam_desktop));
+    }
+    #b2{
+      right: calc((var(--tam_screen_min) *594) / var(--tam_desktop));
+      bottom: calc((var(--tam_screen_min) *74) / var(--tam_desktop));
+  
+    }
+    #b3{
+      bottom: calc((var(--tam_screen_min) *54.59) / var(--tam_desktop));
+      right: calc((var(--tam_screen_min) *566) / var(--tam_desktop));
+    }
+  
+    #b4{
+      right: calc((var(--tam_screen_min) *416) / var(--tam_desktop));
+      bottom: calc((var(--tam_screen_min) *119.58) / var(--tam_desktop));
+    }
+    #b5{
+      bottom: calc((var(--tam_screen_min) *98) / var(--tam_desktop));
+      right: calc((var(--tam_screen_min) *393) / var(--tam_desktop));
+    }
+    .cr-big{
+      width:calc((var(--tam_screen_min) *62) / var(--tam_desktop));
+      height:calc((var(--tam_screen_min) *58) / var(--tam_desktop));
+    }
+    .cr-max{
+      width: calc((var(--tam_screen_min) *41) / var(--tam_desktop));
+      height:calc((var(--tam_screen_min) *39) / var(--tam_desktop));
+    }
+    .cr-med{
+      width: calc((var(--tam_screen_min) *48) / var(--tam_desktop));
+      height:calc((var(--tam_screen_min) *35) / var(--tam_desktop));
+    }
+    .cr-min{
+      width: calc((var(--tam_screen_min) *49) / var(--tam_desktop));
+      height:calc((var(--tam_screen_min) *46) / var(--tam_desktop));
+    }
+  
+    #cr-1{
+      bottom: calc((var(--tam_screen_min) *29) / var(--tam_desktop));
+      left: calc((var(--tam_screen_min) *68) / var(--tam_desktop));
+    }
+  
+    #cr-2{
+      bottom: calc((var(--tam_screen_min) *133) / var(--tam_desktop));
+      left: calc((var(--tam_screen_min) *221) / var(--tam_desktop));
+    }
+  
+    #cr-3{
+      bottom: calc((var(--tam_screen_min) *42) / var(--tam_desktop));
+      left: calc((var(--tam_screen_min) *636) / var(--tam_desktop));
+  
+    }
+    #cr-4{
+      bottom: calc((var(--tam_screen_min) *63) / var(--tam_desktop));
+      left: calc((var(--tam_screen_min) *998) / var(--tam_desktop));
+    }
+  
+    #cr-5{
+      right: calc((var(--tam_screen_min) *228) / var(--tam_desktop));
+      top: calc((var(--tam_screen_min) *49) / var(--tam_desktop));
+    }
+  
+    #cr-6{
+      right: calc((var(--tam_screen_min) *73) / var(--tam_desktop));
+      bottom: calc((var(--tam_screen_min) *154) / var(--tam_desktop));
+    }
+  
+    #cr-7{
+      right: calc((var(--tam_screen_min) *178) / var(--tam_desktop));
+      bottom: calc((var(--tam_screen_min) *0.26) / var(--tam_desktop));
+    }
+   /*div con corte triagunlar*/
+  .container-info {
+   top: -1px;
+    width: calc((var(--tam_screen_min) * 1932) / var(--tam_desktop));
+    height: calc((var(--tam_screen_min) * 110.13) / var(--tam_desktop));
+    background: #ffffff 0% 0% no-repeat padding-box;
+    /*   clip-path: polygon(0 0, 0% 100%, 95% 1%); */
+    clip-path: polygon(100% 0, 100% 4%, 0 100%, 0 0);
+    position:absolute;
+    
+  }
+ /*margin's para ambos div's para combinar diseño*/
+  .footer-info,
+  .footer-info2 {
+    margin: 0 calc((var(--tam_screen_min) * 294) / var(--tam_desktop));
+  }
+
+  .info-title,
+  .list-contact,
+  .info-description {
+    margin: auto;
+  }
+  .info-title {
+    padding: 0;
+  }
+
+  .info-title h5 {
+    font: 500 calc((var(--tam_screen_min) * 18) / var(--tam_desktop)) /
+      calc((var(--tam_screen_min) * 27) / var(--tam_desktop)) "Poppins";
+    letter-spacing: 0;
+    color: #101c21;
+    opacity: 1;
+  }
+  /*items sin padding para no hacer espacio innecesario*/
+  .footer-info,
+  .item {
+    padding: 0;
+  }
+  /*para div contenedor de la imagen del icono de red social*/
+  .icon-social {
+    width: calc((var(--tam_screen_min) * 49) / var(--tam_desktop));
+    height: calc((var(--tam_screen_min) * 48) / var(--tam_desktop));
+    border-radius: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  /*para el icono de facebook*/
+  #icon-fb img{
+   width: calc((var(--tam_screen_min) *10) / var(--tam_desktop));
+   height: calc((var(--tam_screen_min) *21) / var(--tam_desktop));
+  }
+   /*para el icono de instagram y skype*/
+  #icon-ig img, #icon-sk img{
+   width: calc((var(--tam_screen_min) *21) / var(--tam_desktop));
+   height: calc((var(--tam_screen_min) *21) / var(--tam_desktop));
+  }
+   /*para el icono de linkedin*/
+  #icon-lknd img{
+   width: calc((var(--tam_screen_min) *19) / var(--tam_desktop));
+   height: calc((var(--tam_screen_min) *18) / var(--tam_desktop));
+  
+  }
+   /*para el fondo del div contenedor de icono de facebook*/
+  #icon-fb {
+   background: transparent linear-gradient(45deg, #6362d7 0%, #ff8fe2 100%) 0%
+     0% no-repeat padding-box;
  }
- .footer-contain{
+ /*para el fondo del div contenedor de icono de instagram*/
+ #icon-ig {
+   background: transparent linear-gradient(47deg, #f09376 0%, #f0db79 100%) 0%
+     0% no-repeat padding-box;
+   opacity: 1;
+ }
+/*para el fondo del div contenedor de icono de skype*/
+ #icon-sk {
+   background: transparent
+     linear-gradient(23deg, #00b56c 0%, #1dbe75 22%, #68d58c 68%, #9ee69d 100%)
+     0% 0% no-repeat padding-box;
+   opacity: 1;
+ }
+/*para el fondo del div contenedor de icono de linkedin*/
+ #icon-lknd {
+   background: transparent
+     linear-gradient(90deg, #ff9ab6 0%, #f03295 99%, #f03295 100%) 0% 0%
+     no-repeat padding-box;
+   opacity: 1;
+ }
+ 
+ .icon-social {
+   cursor: pointer;
+ }
+
+ .info-description p{
+   text-align: left;
+   font-family:"Poppins";
+   font-weight:400;
+   font-size:calc((var(--tam_screen_min) *13)/var(--tam_desktop));
+   line-height:calc((var(--tam_screen_min) *23/ var(--tam_desktop)));
+  letter-spacing: 0;
+   color: #777777;
+   opacity: 1;
+ }
+ .list-unstyled li a,.list-unstyled li h6 {
+   text-align: left;
+   font: 400 calc((var(--tam_screen_min) *15)/var(--tam_desktop))/calc((var(--tam_screen_min) *32)/var(--tam_desktop)) "Poppins";
+   letter-spacing: 0;
+   color: #777777;
+   opacity: 1;
+ }
+ /*para que encaje dentro de la pantalla*/
+ .container, .container-lg, .container-md, .container-sm {
+   max-width:  calc((var(--tam_screen_min) *1440)/var(--tam_desktop));
+   }
+/*para el icono de correo electronico*/
+   .list-unstyled li img{
+      width: calc((var(--tam_screen_min) *29)/var(--tam_desktop));
+      height: calc((var(--tam_screen_min) *21)/var(--tam_desktop));
+   }
+   #container-1{
+      display:inline-block;
+   }
+}
+
+@media (min-width: 1440px) and (max-width: 1679px) {
+  :host {
+    --tam_desktop: 1920;
+    --tam_screen_max: 1679;
+    --tam_screen_min: 1440px;
+  }
+  .logo-shok-big{
+    margin: calc((var(--tam_screen_min) *122.13) / var(--tam_desktop)) 0 calc((var(--tam_screen_min) *100) / var(--tam_desktop)) calc((var(--tam_screen_min) *714) / var(--tam_desktop));
+    width: calc((var(--tam_screen_min) *500) / var(--tam_desktop));
+    height: calc((var(--tam_screen_min) *28) / var(--tam_desktop));
+  }
+  .logo-shok-big img{
+    width:100%;
+    height:100%;
+  }
+  /*conteiner global*/
+  .footer-container {
+    width: calc((var(--tam_screen_min) * 1934) / var(--tam_desktop));
+
+   
+  }
+  /*lista de items de cada uno de las columnas*/
+  .list li{
+   margin-bottom:10px;
+  }
+  /*el ultimo de los items no tendra margin bottom*/
+  #last{
+   margin-bottom:0px;
+  }
+
+    /*div de fondo color azulado*/
+  .footer-contain {
+   position: relative;
+   
+    width: calc((var(--tam_screen_min) * 1932) / var(--tam_desktop));
+    height: calc((var(--tam_screen_min) * 290) / var(--tam_desktop));
+    margin-top: 1px;
+    background: transparent linear-gradient(4deg, #ffffff 0%, #dff0ff 100%) 0%
+      0% no-repeat padding-box;
+  }
+    /* estilos para cuadros y circulos*/
+    .bubble-tipe {
+      position: absolute;
+      background: #0000ff 0% 0% no-repeat padding-box;
+      opacity: 0.03;
+    }
+    .loader {
+      border-right: calc((var(--tam_screen_min) *12) / var(--tam_desktop)) solid #0000ff;
+      border-left: calc((var(--tam_screen_min) *12) / var(--tam_desktop)) solid #0000ff;
+      border-radius: 50%;
+      position: absolute;
+  
+      border-top: calc((var(--tam_screen_min) *12) / var(--tam_desktop)) solid #0000ff;
+      border-bottom: calc((var(--tam_screen_min) *12) / var(--tam_desktop)) solid #0000ff;
+      opacity: 0.03;
+    }
+    .b-max{
+      width:calc((var(--tam_screen_min) *64) / var(--tam_desktop));
+      height:calc((var(--tam_screen_min) *60) / var(--tam_desktop));
+    }
+    .b-max2{
+      width:calc((var(--tam_screen_min) *72) / var(--tam_desktop));
+      height:calc((var(--tam_screen_min) *68) / var(--tam_desktop));
+    }
+    .b-med{
+      width:calc((var(--tam_screen_min) *57) / var(--tam_desktop));
+      height:calc((var(--tam_screen_min) *54) / var(--tam_desktop));
+    }
+    .b-min{
+      width:calc((var(--tam_screen_min) *35) / var(--tam_desktop));
+      height:calc((var(--tam_screen_min) *30) / var(--tam_desktop));
+    }
+    
+    #b1{
+      top: calc((var(--tam_screen_min) *100.19) / var(--tam_desktop));
+      left: calc((var(--tam_screen_min) *668) / var(--tam_desktop));
+    }
+    #b2{
+      right: calc((var(--tam_screen_min) *594) / var(--tam_desktop));
+      bottom: calc((var(--tam_screen_min) *74) / var(--tam_desktop));
+  
+    }
+    #b3{
+      bottom: calc((var(--tam_screen_min) *54.59) / var(--tam_desktop));
+      right: calc((var(--tam_screen_min) *566) / var(--tam_desktop));
+    }
+  
+    #b4{
+      right: calc((var(--tam_screen_min) *416) / var(--tam_desktop));
+      bottom: calc((var(--tam_screen_min) *119.58) / var(--tam_desktop));
+    }
+    #b5{
+      bottom: calc((var(--tam_screen_min) *98) / var(--tam_desktop));
+      right: calc((var(--tam_screen_min) *393) / var(--tam_desktop));
+    }
+    .cr-big{
+      width:calc((var(--tam_screen_min) *62) / var(--tam_desktop));
+      height:calc((var(--tam_screen_min) *58) / var(--tam_desktop));
+    }
+    .cr-max{
+      width: calc((var(--tam_screen_min) *41) / var(--tam_desktop));
+      height:calc((var(--tam_screen_min) *39) / var(--tam_desktop));
+    }
+    .cr-med{
+      width: calc((var(--tam_screen_min) *48) / var(--tam_desktop));
+      height:calc((var(--tam_screen_min) *35) / var(--tam_desktop));
+    }
+    .cr-min{
+      width: calc((var(--tam_screen_min) *49) / var(--tam_desktop));
+      height:calc((var(--tam_screen_min) *46) / var(--tam_desktop));
+    }
+  
+    #cr-1{
+      bottom: calc((var(--tam_screen_min) *29) / var(--tam_desktop));
+      left: calc((var(--tam_screen_min) *68) / var(--tam_desktop));
+    }
+  
+    #cr-2{
+      bottom: calc((var(--tam_screen_min) *133) / var(--tam_desktop));
+      left: calc((var(--tam_screen_min) *221) / var(--tam_desktop));
+    }
+  
+    #cr-3{
+      bottom: calc((var(--tam_screen_min) *42) / var(--tam_desktop));
+      left: calc((var(--tam_screen_min) *636) / var(--tam_desktop));
+  
+    }
+    #cr-4{
+      bottom: calc((var(--tam_screen_min) *63) / var(--tam_desktop));
+      left: calc((var(--tam_screen_min) *998) / var(--tam_desktop));
+    }
+  
+    #cr-5{
+      right: calc((var(--tam_screen_min) *228) / var(--tam_desktop));
+      top: calc((var(--tam_screen_min) *49) / var(--tam_desktop));
+    }
+  
+    #cr-6{
+      right: calc((var(--tam_screen_min) *73) / var(--tam_desktop));
+      bottom: calc((var(--tam_screen_min) *154) / var(--tam_desktop));
+    }
+  
+    #cr-7{
+      right: calc((var(--tam_screen_min) *178) / var(--tam_desktop));
+      bottom: calc((var(--tam_screen_min) *0.26) / var(--tam_desktop));
+    }
+   /*div con corte triagunlar*/
+  .container-info {
+   top: -1px;
+    width: calc((var(--tam_screen_min) * 1932) / var(--tam_desktop));
+    height: calc((var(--tam_screen_min) * 110.13) / var(--tam_desktop));
+    background: #ffffff 0% 0% no-repeat padding-box;
+    /*   clip-path: polygon(0 0, 0% 100%, 95% 1%); */
+    clip-path: polygon(100% 0, 100% 4%, 0 100%, 0 0);
+    position:absolute;
+    
+  }
+ /*margin's para ambos div's para combinar diseño*/
+  .footer-info,
+  .footer-info2 {
+    margin: 0 calc((var(--tam_screen_min) * 294) / var(--tam_desktop));
+  }
+
+  .info-title,
+  .list-contact,
+  .info-description {
+    margin: auto;
+  }
+  .info-title {
+    padding: 0;
+  }
+
+  .info-title h5 {
+    font: 500 calc((var(--tam_screen_min) * 18) / var(--tam_desktop)) /
+      calc((var(--tam_screen_min) * 27) / var(--tam_desktop)) "Poppins";
+    letter-spacing: 0;
+    color: #101c21;
+    opacity: 1;
+  }
+  /*items sin padding para no hacer espacio innecesario*/
+  .footer-info,
+  .item {
+    padding: 0;
+  }
+  /*para div contenedor de la imagen del icono de red social*/
+  .icon-social {
+    width: calc((var(--tam_screen_min) * 49) / var(--tam_desktop));
+    height: calc((var(--tam_screen_min) * 48) / var(--tam_desktop));
+    border-radius: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  /*para el icono de facebook*/
+  #icon-fb img{
+   width: calc((var(--tam_screen_min) *10) / var(--tam_desktop));
+   height: calc((var(--tam_screen_min) *21) / var(--tam_desktop));
+  }
+   /*para el icono de instagram y skype*/
+  #icon-ig img, #icon-sk img{
+   width: calc((var(--tam_screen_min) *21) / var(--tam_desktop));
+   height: calc((var(--tam_screen_min) *21) / var(--tam_desktop));
+  }
+   /*para el icono de linkedin*/
+  #icon-lknd img{
+   width: calc((var(--tam_screen_min) *19) / var(--tam_desktop));
+   height: calc((var(--tam_screen_min) *18) / var(--tam_desktop));
+  
+  }
+   /*para el fondo del div contenedor de icono de facebook*/
+  #icon-fb {
+   background: transparent linear-gradient(45deg, #6362d7 0%, #ff8fe2 100%) 0%
+     0% no-repeat padding-box;
+ }
+ /*para el fondo del div contenedor de icono de instagram*/
+ #icon-ig {
+   background: transparent linear-gradient(47deg, #f09376 0%, #f0db79 100%) 0%
+     0% no-repeat padding-box;
+   opacity: 1;
+ }
+/*para el fondo del div contenedor de icono de skype*/
+ #icon-sk {
+   background: transparent
+     linear-gradient(23deg, #00b56c 0%, #1dbe75 22%, #68d58c 68%, #9ee69d 100%)
+     0% 0% no-repeat padding-box;
+   opacity: 1;
+ }
+/*para el fondo del div contenedor de icono de linkedin*/
+ #icon-lknd {
+   background: transparent
+     linear-gradient(90deg, #ff9ab6 0%, #f03295 99%, #f03295 100%) 0% 0%
+     no-repeat padding-box;
+   opacity: 1;
+ }
+ 
+ .icon-social {
+   cursor: pointer;
+ }
+
+ .info-description p{
+   text-align: left;
+   font-family:"Poppins";
+   font-weight:400;
+   font-size:calc((var(--tam_screen_min) *13)/var(--tam_desktop));
+   line-height:calc((var(--tam_screen_min) *23/ var(--tam_desktop)));
+  letter-spacing: 0;
+   color: #777777;
+   opacity: 1;
+ }
+ .list-unstyled li a,.list-unstyled li h6 {
+   text-align: left;
+   font: 400 calc((var(--tam_screen_min) *15)/var(--tam_desktop))/calc((var(--tam_screen_min) *32)/var(--tam_desktop)) "Poppins";
+   letter-spacing: 0;
+   color: #777777;
+   opacity: 1;
+ }
+ /*para que encaje dentro de la pantalla*/
+ .container, .container-lg, .container-md, .container-sm {
+   max-width:  calc((var(--tam_screen_min) *1440)/var(--tam_desktop));
+   }
+/*para el icono de correo electronico*/
+   .list-unstyled li img{
+      width: calc((var(--tam_screen_min) *29)/var(--tam_desktop));
+      height: calc((var(--tam_screen_min) *21)/var(--tam_desktop));
+   }
+   #container-1{
+      display:inline-block;
+   }
+}
+
+@media (min-width: 1366px) and (max-width: 1439px) {
+  :host {
+    --tam_desktop: 1920;
+    --tam_screen_max: 1439;
+    --tam_screen_min: 1366px;
+  }
+  .logo-shok-big{
+    margin: calc((var(--tam_screen_min) *122.13) / var(--tam_desktop)) 0 calc((var(--tam_screen_min) *100) / var(--tam_desktop)) calc((var(--tam_screen_min) *714) / var(--tam_desktop));
+    width: calc((var(--tam_screen_min) *500) / var(--tam_desktop));
+    height: calc((var(--tam_screen_min) *28) / var(--tam_desktop));
+  }
+  .logo-shok-big img{
+    width:100%;
+    height:100%;
+  }
+  /*conteiner global*/
+  .footer-container {
+    width: calc((var(--tam_screen_min) * 1934) / var(--tam_desktop));
+
+   
+  }
+  /*lista de items de cada uno de las columnas*/
+  .list li{
+   margin-bottom:10px;
+  }
+  /*el ultimo de los items no tendra margin bottom*/
+  #last{
+   margin-bottom:0px;
+  }
+
+    /*div de fondo color azulado*/
+  .footer-contain {
+   position: relative;
+   
+    width: calc((var(--tam_screen_min) * 1932) / var(--tam_desktop));
+    height: calc((var(--tam_screen_min) * 290) / var(--tam_desktop));
+    margin-top: 1px;
+    background: transparent linear-gradient(4deg, #ffffff 0%, #dff0ff 100%) 0%
+      0% no-repeat padding-box;
+  }
+
+    /* estilos para cuadros y circulos*/
+    .bubble-tipe {
+      position: absolute;
+      background: #0000ff 0% 0% no-repeat padding-box;
+      opacity: 0.03;
+    }
+    .loader {
+      border-right: calc((var(--tam_screen_min) *12) / var(--tam_desktop)) solid #0000ff;
+      border-left: calc((var(--tam_screen_min) *12) / var(--tam_desktop)) solid #0000ff;
+      border-radius: 50%;
+      position: absolute;
+  
+      border-top: calc((var(--tam_screen_min) *12) / var(--tam_desktop)) solid #0000ff;
+      border-bottom: calc((var(--tam_screen_min) *12) / var(--tam_desktop)) solid #0000ff;
+      opacity: 0.03;
+    }
+    .b-max{
+      width:calc((var(--tam_screen_min) *64) / var(--tam_desktop));
+      height:calc((var(--tam_screen_min) *60) / var(--tam_desktop));
+    }
+    .b-max2{
+      width:calc((var(--tam_screen_min) *72) / var(--tam_desktop));
+      height:calc((var(--tam_screen_min) *68) / var(--tam_desktop));
+    }
+    .b-med{
+      width:calc((var(--tam_screen_min) *57) / var(--tam_desktop));
+      height:calc((var(--tam_screen_min) *54) / var(--tam_desktop));
+    }
+    .b-min{
+      width:calc((var(--tam_screen_min) *35) / var(--tam_desktop));
+      height:calc((var(--tam_screen_min) *30) / var(--tam_desktop));
+    }
+    
+    #b1{
+      top: calc((var(--tam_screen_min) *100.19) / var(--tam_desktop));
+      left: calc((var(--tam_screen_min) *668) / var(--tam_desktop));
+    }
+    #b2{
+      right: calc((var(--tam_screen_min) *594) / var(--tam_desktop));
+      bottom: calc((var(--tam_screen_min) *74) / var(--tam_desktop));
+  
+    }
+    #b3{
+      bottom: calc((var(--tam_screen_min) *54.59) / var(--tam_desktop));
+      right: calc((var(--tam_screen_min) *566) / var(--tam_desktop));
+    }
+  
+    #b4{
+      right: calc((var(--tam_screen_min) *416) / var(--tam_desktop));
+      bottom: calc((var(--tam_screen_min) *119.58) / var(--tam_desktop));
+    }
+    #b5{
+      bottom: calc((var(--tam_screen_min) *98) / var(--tam_desktop));
+      right: calc((var(--tam_screen_min) *393) / var(--tam_desktop));
+    }
+    .cr-big{
+      width:calc((var(--tam_screen_min) *62) / var(--tam_desktop));
+      height:calc((var(--tam_screen_min) *58) / var(--tam_desktop));
+    }
+    .cr-max{
+      width: calc((var(--tam_screen_min) *41) / var(--tam_desktop));
+      height:calc((var(--tam_screen_min) *39) / var(--tam_desktop));
+    }
+    .cr-med{
+      width: calc((var(--tam_screen_min) *48) / var(--tam_desktop));
+      height:calc((var(--tam_screen_min) *35) / var(--tam_desktop));
+    }
+    .cr-min{
+      width: calc((var(--tam_screen_min) *49) / var(--tam_desktop));
+      height:calc((var(--tam_screen_min) *46) / var(--tam_desktop));
+    }
+  
+    #cr-1{
+      bottom: calc((var(--tam_screen_min) *29) / var(--tam_desktop));
+      left: calc((var(--tam_screen_min) *68) / var(--tam_desktop));
+    }
+  
+    #cr-2{
+      bottom: calc((var(--tam_screen_min) *133) / var(--tam_desktop));
+      left: calc((var(--tam_screen_min) *221) / var(--tam_desktop));
+    }
+  
+    #cr-3{
+      bottom: calc((var(--tam_screen_min) *42) / var(--tam_desktop));
+      left: calc((var(--tam_screen_min) *636) / var(--tam_desktop));
+  
+    }
+    #cr-4{
+      bottom: calc((var(--tam_screen_min) *63) / var(--tam_desktop));
+      left: calc((var(--tam_screen_min) *998) / var(--tam_desktop));
+    }
+  
+    #cr-5{
+      right: calc((var(--tam_screen_min) *228) / var(--tam_desktop));
+      top: calc((var(--tam_screen_min) *49) / var(--tam_desktop));
+    }
+  
+    #cr-6{
+      right: calc((var(--tam_screen_min) *73) / var(--tam_desktop));
+      bottom: calc((var(--tam_screen_min) *154) / var(--tam_desktop));
+    }
+  
+    #cr-7{
+      right: calc((var(--tam_screen_min) *178) / var(--tam_desktop));
+      bottom: calc((var(--tam_screen_min) *0.26) / var(--tam_desktop));
+    }
+   /*div con corte triagunlar*/
+  .container-info {
+   top: -1px;
+    width: calc((var(--tam_screen_min) * 1932) / var(--tam_desktop));
+    height: calc((var(--tam_screen_min) * 110.13) / var(--tam_desktop));
+    background: #ffffff 0% 0% no-repeat padding-box;
+    /*   clip-path: polygon(0 0, 0% 100%, 95% 1%); */
+    clip-path: polygon(100% 0, 100% 4%, 0 100%, 0 0);
+    position:absolute;
+    
+  }
+ /*margin's para ambos div's para combinar diseño*/
+  .footer-info,
+  .footer-info2 {
+    margin: 0 calc((var(--tam_screen_min) * 294) / var(--tam_desktop));
+  }
+
+  .info-title,
+  .list-contact,
+  .info-description {
+    margin: auto;
+  }
+  .info-title {
+    padding: 0;
+  }
+
+  .info-title h5 {
+    font: 500 calc((var(--tam_screen_min) * 18) / var(--tam_desktop)) /
+      calc((var(--tam_screen_min) * 27) / var(--tam_desktop)) "Poppins";
+    letter-spacing: 0;
+    color: #101c21;
+    opacity: 1;
+  }
+  /*items sin padding para no hacer espacio innecesario*/
+  .footer-info,
+  .item {
+    padding: 0;
+  }
+  /*para div contenedor de la imagen del icono de red social*/
+  .icon-social {
+    width: calc((var(--tam_screen_min) * 49) / var(--tam_desktop));
+    height: calc((var(--tam_screen_min) * 48) / var(--tam_desktop));
+    border-radius: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  /*para el icono de facebook*/
+  #icon-fb img{
+   width: calc((var(--tam_screen_min) *10) / var(--tam_desktop));
+   height: calc((var(--tam_screen_min) *21) / var(--tam_desktop));
+  }
+   /*para el icono de instagram y skype*/
+  #icon-ig img, #icon-sk img{
+   width: calc((var(--tam_screen_min) *21) / var(--tam_desktop));
+   height: calc((var(--tam_screen_min) *21) / var(--tam_desktop));
+  }
+   /*para el icono de linkedin*/
+  #icon-lknd img{
+   width: calc((var(--tam_screen_min) *19) / var(--tam_desktop));
+   height: calc((var(--tam_screen_min) *18) / var(--tam_desktop));
+  
+  }
+   /*para el fondo del div contenedor de icono de facebook*/
+  #icon-fb {
+   background: transparent linear-gradient(45deg, #6362d7 0%, #ff8fe2 100%) 0%
+     0% no-repeat padding-box;
+ }
+ /*para el fondo del div contenedor de icono de instagram*/
+ #icon-ig {
+   background: transparent linear-gradient(47deg, #f09376 0%, #f0db79 100%) 0%
+     0% no-repeat padding-box;
+   opacity: 1;
+ }
+/*para el fondo del div contenedor de icono de skype*/
+ #icon-sk {
+   background: transparent
+     linear-gradient(23deg, #00b56c 0%, #1dbe75 22%, #68d58c 68%, #9ee69d 100%)
+     0% 0% no-repeat padding-box;
+   opacity: 1;
+ }
+/*para el fondo del div contenedor de icono de linkedin*/
+ #icon-lknd {
+   background: transparent
+     linear-gradient(90deg, #ff9ab6 0%, #f03295 99%, #f03295 100%) 0% 0%
+     no-repeat padding-box;
+   opacity: 1;
+ }
+ 
+ .icon-social {
+   cursor: pointer;
+ }
+
+ .info-description p{
+   text-align: left;
+   font-family:"Poppins";
+   font-weight:400;
+   font-size:calc((var(--tam_screen_min) *13)/var(--tam_desktop));
+   line-height:calc((var(--tam_screen_min) *23/ var(--tam_desktop)));
+  letter-spacing: 0;
+   color: #777777;
+   opacity: 1;
+ }
+ .list-unstyled li a,.list-unstyled li h6 {
+   text-align: left;
+   font: 400 calc((var(--tam_screen_min) *15)/var(--tam_desktop))/calc((var(--tam_screen_min) *32)/var(--tam_desktop)) "Poppins";
+   letter-spacing: 0;
+   color: #777777;
+   opacity: 1;
+ }
+ /*para que encaje dentro de la pantalla*/
+ .container, .container-lg, .container-md, .container-sm {
+   max-width:  calc((var(--tam_screen_min) *1440)/var(--tam_desktop));
+   }
+/*para el icono de correo electronico*/
+   .list-unstyled li img{
+      width: calc((var(--tam_screen_min) *29)/var(--tam_desktop));
+      height: calc((var(--tam_screen_min) *21)/var(--tam_desktop));
+   }
+   #container-1{
+      display:inline-block;
+   }
+}
+
+@media (min-width: 1280px) and (max-width: 1365px) {
+  :host {
+    --tam_desktop: 1920;
+    --tam_screen_max: 1365;
+    --tam_screen_min: 1280px;
+  }
+  .logo-shok-big{
+    margin: calc((var(--tam_screen_min) *122.13) / var(--tam_desktop)) 0 calc((var(--tam_screen_min) *100) / var(--tam_desktop)) calc((var(--tam_screen_min) *714) / var(--tam_desktop));
+    width: calc((var(--tam_screen_min) *500) / var(--tam_desktop));
+    height: calc((var(--tam_screen_min) *28) / var(--tam_desktop));
+  }
+  .logo-shok-big img{
+    width:100%;
+    height:100%;
+  }
+  /*conteiner global*/
+  .footer-container {
+    width: calc((var(--tam_screen_min) * 1934) / var(--tam_desktop));
+
+   
+  }
+  /*lista de items de cada uno de las columnas*/
+  .list li{
+   margin-bottom:10px;
+  }
+  /*el ultimo de los items no tendra margin bottom*/
+  #last{
+   margin-bottom:0px;
+  }
+
+    /*div de fondo color azulado*/
+  .footer-contain {
+   position: relative;
+   
+    width: calc((var(--tam_screen_min) * 1932) / var(--tam_desktop));
+    height: calc((var(--tam_screen_min) * 290) / var(--tam_desktop));
+    margin-top: 1px;
+    background: transparent linear-gradient(4deg, #ffffff 0%, #dff0ff 100%) 0%
+      0% no-repeat padding-box;
+  }
+    /* estilos para cuadros y circulos*/
+    .bubble-tipe {
+      position: absolute;
+      background: #0000ff 0% 0% no-repeat padding-box;
+      opacity: 0.03;
+    }
+    .loader {
+      border-right: calc((var(--tam_screen_min) *12) / var(--tam_desktop)) solid #0000ff;
+      border-left: calc((var(--tam_screen_min) *12) / var(--tam_desktop)) solid #0000ff;
+      border-radius: 50%;
+      position: absolute;
+  
+      border-top: calc((var(--tam_screen_min) *12) / var(--tam_desktop)) solid #0000ff;
+      border-bottom: calc((var(--tam_screen_min) *12) / var(--tam_desktop)) solid #0000ff;
+      opacity: 0.03;
+    }
+    .b-max{
+      width:calc((var(--tam_screen_min) *64) / var(--tam_desktop));
+      height:calc((var(--tam_screen_min) *60) / var(--tam_desktop));
+    }
+    .b-max2{
+      width:calc((var(--tam_screen_min) *72) / var(--tam_desktop));
+      height:calc((var(--tam_screen_min) *68) / var(--tam_desktop));
+    }
+    .b-med{
+      width:calc((var(--tam_screen_min) *57) / var(--tam_desktop));
+      height:calc((var(--tam_screen_min) *54) / var(--tam_desktop));
+    }
+    .b-min{
+      width:calc((var(--tam_screen_min) *35) / var(--tam_desktop));
+      height:calc((var(--tam_screen_min) *30) / var(--tam_desktop));
+    }
+    
+    #b1{
+      top: calc((var(--tam_screen_min) *100.19) / var(--tam_desktop));
+      left: calc((var(--tam_screen_min) *668) / var(--tam_desktop));
+    }
+    #b2{
+      right: calc((var(--tam_screen_min) *594) / var(--tam_desktop));
+      bottom: calc((var(--tam_screen_min) *74) / var(--tam_desktop));
+  
+    }
+    #b3{
+      bottom: calc((var(--tam_screen_min) *54.59) / var(--tam_desktop));
+      right: calc((var(--tam_screen_min) *566) / var(--tam_desktop));
+    }
+  
+    #b4{
+      right: calc((var(--tam_screen_min) *416) / var(--tam_desktop));
+      bottom: calc((var(--tam_screen_min) *119.58) / var(--tam_desktop));
+    }
+    #b5{
+      bottom: calc((var(--tam_screen_min) *98) / var(--tam_desktop));
+      right: calc((var(--tam_screen_min) *393) / var(--tam_desktop));
+    }
+    .cr-big{
+      width:calc((var(--tam_screen_min) *62) / var(--tam_desktop));
+      height:calc((var(--tam_screen_min) *58) / var(--tam_desktop));
+    }
+    .cr-max{
+      width: calc((var(--tam_screen_min) *41) / var(--tam_desktop));
+      height:calc((var(--tam_screen_min) *39) / var(--tam_desktop));
+    }
+    .cr-med{
+      width: calc((var(--tam_screen_min) *48) / var(--tam_desktop));
+      height:calc((var(--tam_screen_min) *35) / var(--tam_desktop));
+    }
+    .cr-min{
+      width: calc((var(--tam_screen_min) *49) / var(--tam_desktop));
+      height:calc((var(--tam_screen_min) *46) / var(--tam_desktop));
+    }
+  
+    #cr-1{
+      bottom: calc((var(--tam_screen_min) *29) / var(--tam_desktop));
+      left: calc((var(--tam_screen_min) *68) / var(--tam_desktop));
+    }
+  
+    #cr-2{
+      bottom: calc((var(--tam_screen_min) *133) / var(--tam_desktop));
+      left: calc((var(--tam_screen_min) *221) / var(--tam_desktop));
+    }
+  
+    #cr-3{
+      bottom: calc((var(--tam_screen_min) *42) / var(--tam_desktop));
+      left: calc((var(--tam_screen_min) *636) / var(--tam_desktop));
+  
+    }
+    #cr-4{
+      bottom: calc((var(--tam_screen_min) *63) / var(--tam_desktop));
+      left: calc((var(--tam_screen_min) *998) / var(--tam_desktop));
+    }
+  
+    #cr-5{
+      right: calc((var(--tam_screen_min) *228) / var(--tam_desktop));
+      top: calc((var(--tam_screen_min) *49) / var(--tam_desktop));
+    }
+  
+    #cr-6{
+      right: calc((var(--tam_screen_min) *73) / var(--tam_desktop));
+      bottom: calc((var(--tam_screen_min) *154) / var(--tam_desktop));
+    }
+  
+    #cr-7{
+      right: calc((var(--tam_screen_min) *178) / var(--tam_desktop));
+      bottom: calc((var(--tam_screen_min) *0.26) / var(--tam_desktop));
+    }
+   /*div con corte triagunlar*/
+  .container-info {
+   top: -1px;
+    width: calc((var(--tam_screen_min) * 1932) / var(--tam_desktop));
+    height: calc((var(--tam_screen_min) * 110.13) / var(--tam_desktop));
+    background: #ffffff 0% 0% no-repeat padding-box;
+    /*   clip-path: polygon(0 0, 0% 100%, 95% 1%); */
+    clip-path: polygon(100% 0, 100% 4%, 0 100%, 0 0);
+    position:absolute;
+    
+  }
+ /*margin's para ambos div's para combinar diseño*/
+  .footer-info,
+  .footer-info2 {
+    margin: 0 calc((var(--tam_screen_min) * 294) / var(--tam_desktop));
+  }
+
+  .info-title,
+  .list-contact,
+  .info-description {
+    margin: auto;
+  }
+  .info-title {
+    padding: 0;
+  }
+
+  .info-title h5 {
+    font: 500 calc((var(--tam_screen_min) * 18) / var(--tam_desktop)) /
+      calc((var(--tam_screen_min) * 27) / var(--tam_desktop)) "Poppins";
+    letter-spacing: 0;
+    color: #101c21;
+    opacity: 1;
+  }
+  /*items sin padding para no hacer espacio innecesario*/
+  .footer-info,
+  .item {
+    padding: 0;
+  }
+  /*para div contenedor de la imagen del icono de red social*/
+  .icon-social {
+    width: calc((var(--tam_screen_min) * 49) / var(--tam_desktop));
+    height: calc((var(--tam_screen_min) * 48) / var(--tam_desktop));
+    border-radius: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  /*para el icono de facebook*/
+  #icon-fb img{
+   width: calc((var(--tam_screen_min) *10) / var(--tam_desktop));
+   height: calc((var(--tam_screen_min) *21) / var(--tam_desktop));
+  }
+   /*para el icono de instagram y skype*/
+  #icon-ig img, #icon-sk img{
+   width: calc((var(--tam_screen_min) *21) / var(--tam_desktop));
+   height: calc((var(--tam_screen_min) *21) / var(--tam_desktop));
+  }
+   /*para el icono de linkedin*/
+  #icon-lknd img{
+   width: calc((var(--tam_screen_min) *19) / var(--tam_desktop));
+   height: calc((var(--tam_screen_min) *18) / var(--tam_desktop));
+  
+  }
+   /*para el fondo del div contenedor de icono de facebook*/
+  #icon-fb {
+   background: transparent linear-gradient(45deg, #6362d7 0%, #ff8fe2 100%) 0%
+     0% no-repeat padding-box;
+ }
+ /*para el fondo del div contenedor de icono de instagram*/
+ #icon-ig {
+   background: transparent linear-gradient(47deg, #f09376 0%, #f0db79 100%) 0%
+     0% no-repeat padding-box;
+   opacity: 1;
+ }
+/*para el fondo del div contenedor de icono de skype*/
+ #icon-sk {
+   background: transparent
+     linear-gradient(23deg, #00b56c 0%, #1dbe75 22%, #68d58c 68%, #9ee69d 100%)
+     0% 0% no-repeat padding-box;
+   opacity: 1;
+ }
+/*para el fondo del div contenedor de icono de linkedin*/
+ #icon-lknd {
+   background: transparent
+     linear-gradient(90deg, #ff9ab6 0%, #f03295 99%, #f03295 100%) 0% 0%
+     no-repeat padding-box;
+   opacity: 1;
+ }
+ 
+ .icon-social {
+   cursor: pointer;
+ }
+
+ .info-description p{
+   text-align: left;
+   font-family:"Poppins";
+   font-weight:400;
+   font-size:calc((var(--tam_screen_min) *13)/var(--tam_desktop));
+   line-height:calc((var(--tam_screen_min) *23/ var(--tam_desktop)));
+  letter-spacing: 0;
+   color: #777777;
+   opacity: 1;
+ }
+ .list-unstyled li a,.list-unstyled li h6 {
+   text-align: left;
+   font: 400 calc((var(--tam_screen_min) *15)/var(--tam_desktop))/calc((var(--tam_screen_min) *32)/var(--tam_desktop)) "Poppins";
+   letter-spacing: 0;
+   color: #777777;
+   opacity: 1;
+ }
+ /*para que encaje dentro de la pantalla*/
+ .container, .container-lg, .container-md, .container-sm {
+   max-width:calc((var(--tam_screen_min) *1440)/var(--tam_desktop));
+   }
+/*para el icono de correo electronico*/
+   .list-unstyled li img{
+      width: calc((var(--tam_screen_min) *29)/var(--tam_desktop));
+      height: calc((var(--tam_screen_min) *21)/var(--tam_desktop));
+   }
+   #container-1{
+      display:inline-block;
+   }
+}
+
+@media (min-width: 1024px) and (max-width: 1279px) {
+  :host {
+    --tam_desktop: 1920;
+    --tam_screen_max: 1023;
+    --tam_screen_min: 1023px;
+  }
+
+  .logo-shok-big{
+    margin: calc((var(--tam_screen_min) *122.13) / var(--tam_desktop)) 0 calc((var(--tam_screen_min) *100) / var(--tam_desktop)) calc((var(--tam_screen_min) *714) / var(--tam_desktop));
+    width: calc((var(--tam_screen_min) *500) / var(--tam_desktop));
+    height: calc((var(--tam_screen_min) *28) / var(--tam_desktop));
+  }
+  .logo-shok-big img{
+    width:100%;
+    height:100%;
+  }
+  /*conteiner global*/
+  .footer-container {
+    width: calc((var(--tam_screen_min) * 1934) / var(--tam_desktop));
+
+   
+  }
+  /*lista de items de cada uno de las columnas*/
+  .list li{
+   margin-bottom:10px;
+  }
+  /*el ultimo de los items no tendra margin bottom*/
+  #last{
+   margin-bottom:0px;
+  }
+
+    /*div de fondo color azulado*/
+  .footer-contain {
+   position: relative;
+   
+    width: calc((var(--tam_screen_min) * 1932) / var(--tam_desktop));
+    height: calc((var(--tam_screen_min) * 290) / var(--tam_desktop));
+    margin-top: 1px;
+    background: transparent linear-gradient(4deg, #ffffff 0%, #dff0ff 100%) 0%
+      0% no-repeat padding-box;
+  }
+    /* estilos para cuadros y circulos*/
+  .bubble-tipe {
+    position: absolute;
+    background: #0000ff 0% 0% no-repeat padding-box;
+    opacity: 0.03;
+  }
+  .loader {
+    border-right: calc((var(--tam_screen_min) *12) / var(--tam_desktop)) solid #0000ff;
+    border-left: calc((var(--tam_screen_min) *12) / var(--tam_desktop)) solid #0000ff;
+    border-radius: 50%;
+    position: absolute;
+
+    border-top: calc((var(--tam_screen_min) *12) / var(--tam_desktop)) solid #0000ff;
+    border-bottom: calc((var(--tam_screen_min) *12) / var(--tam_desktop)) solid #0000ff;
+    opacity: 0.03;
+  }
+  .b-max{
+    width:calc((var(--tam_screen_min) *64) / var(--tam_desktop));
+    height:calc((var(--tam_screen_min) *60) / var(--tam_desktop));
+  }
+  .b-max2{
+    width:calc((var(--tam_screen_min) *72) / var(--tam_desktop));
+    height:calc((var(--tam_screen_min) *68) / var(--tam_desktop));
+  }
+  .b-med{
+    width:calc((var(--tam_screen_min) *57) / var(--tam_desktop));
+    height:calc((var(--tam_screen_min) *54) / var(--tam_desktop));
+  }
+  .b-min{
+    width:calc((var(--tam_screen_min) *35) / var(--tam_desktop));
+    height:calc((var(--tam_screen_min) *30) / var(--tam_desktop));
+  }
+  
+  #b1{
+    top: calc((var(--tam_screen_min) *100.19) / var(--tam_desktop));
+    left: calc((var(--tam_screen_min) *668) / var(--tam_desktop));
+  }
+  #b2{
+    right: calc((var(--tam_screen_min) *594) / var(--tam_desktop));
+    bottom: calc((var(--tam_screen_min) *74) / var(--tam_desktop));
+
+  }
+  #b3{
+    bottom: calc((var(--tam_screen_min) *54.59) / var(--tam_desktop));
+    right: calc((var(--tam_screen_min) *566) / var(--tam_desktop));
+  }
+
+  #b4{
+    right: calc((var(--tam_screen_min) *416) / var(--tam_desktop));
+    bottom: calc((var(--tam_screen_min) *119.58) / var(--tam_desktop));
+  }
+  #b5{
+    bottom: calc((var(--tam_screen_min) *98) / var(--tam_desktop));
+    right: calc((var(--tam_screen_min) *393) / var(--tam_desktop));
+  }
+  .cr-big{
+    width:calc((var(--tam_screen_min) *62) / var(--tam_desktop));
+    height:calc((var(--tam_screen_min) *58) / var(--tam_desktop));
+  }
+  .cr-max{
+    width: calc((var(--tam_screen_min) *41) / var(--tam_desktop));
+    height:calc((var(--tam_screen_min) *39) / var(--tam_desktop));
+  }
+  .cr-med{
+    width: calc((var(--tam_screen_min) *48) / var(--tam_desktop));
+    height:calc((var(--tam_screen_min) *35) / var(--tam_desktop));
+  }
+  .cr-min{
+    width: calc((var(--tam_screen_min) *49) / var(--tam_desktop));
+    height:calc((var(--tam_screen_min) *46) / var(--tam_desktop));
+  }
+
+  #cr-1{
+    bottom: calc((var(--tam_screen_min) *29) / var(--tam_desktop));
+    left: calc((var(--tam_screen_min) *68) / var(--tam_desktop));
+  }
+
+  #cr-2{
+    bottom: calc((var(--tam_screen_min) *133) / var(--tam_desktop));
+    left: calc((var(--tam_screen_min) *221) / var(--tam_desktop));
+  }
+
+  #cr-3{
+    bottom: calc((var(--tam_screen_min) *42) / var(--tam_desktop));
+    left: calc((var(--tam_screen_min) *636) / var(--tam_desktop));
+
+  }
+  #cr-4{
+    bottom: calc((var(--tam_screen_min) *63) / var(--tam_desktop));
+    left: calc((var(--tam_screen_min) *998) / var(--tam_desktop));
+  }
+
+  #cr-5{
+    right: calc((var(--tam_screen_min) *228) / var(--tam_desktop));
+    top: calc((var(--tam_screen_min) *49) / var(--tam_desktop));
+  }
+
+  #cr-6{
+    right: calc((var(--tam_screen_min) *73) / var(--tam_desktop));
+    bottom: calc((var(--tam_screen_min) *154) / var(--tam_desktop));
+  }
+
+  #cr-7{
+    right: calc((var(--tam_screen_min) *178) / var(--tam_desktop));
+    bottom: calc((var(--tam_screen_min) *0.26) / var(--tam_desktop));
+  }
+   /*div con corte triagunlar*/
+  .container-info {
+   top: -1px;
+    width: calc((var(--tam_screen_min) * 1932) / var(--tam_desktop));
+    height: calc((var(--tam_screen_min) * 110.13) / var(--tam_desktop));
+    background: #ffffff 0% 0% no-repeat padding-box;
+    /*   clip-path: polygon(0 0, 0% 100%, 95% 1%); */
+    clip-path: polygon(100% 0, 100% 4%, 0 100%, 0 0);
+    position:absolute;
+    
+  }
+ /*margin's para ambos div's para combinar diseño*/
+  .footer-info,
+  .footer-info2 {
+    margin: 0 calc((var(--tam_screen_min) * 294) / var(--tam_desktop));
+  }
+
+  .info-title,
+  .list-contact,
+  .info-description {
+    margin: auto;
+  }
+  .info-title {
+    padding: 0;
+  }
+
+  .info-title h5 {
+    font: 500 calc((var(--tam_screen_min) * 18) / var(--tam_desktop)) /
+      calc((var(--tam_screen_min) * 27) / var(--tam_desktop)) "Poppins";
+    letter-spacing: 0;
+    color: #101c21;
+    opacity: 1;
+  }
+  /*items sin padding para no hacer espacio innecesario*/
+  .footer-info,
+  .item {
+    padding: 0;
+  }
+  /*para div contenedor de la imagen del icono de red social*/
+  .icon-social {
+    width: calc((var(--tam_screen_min) * 49) / var(--tam_desktop));
+    height: calc((var(--tam_screen_min) * 48) / var(--tam_desktop));
+    border-radius: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  /*para el icono de facebook*/
+  #icon-fb img{
+   width: calc((var(--tam_screen_min) *10) / var(--tam_desktop));
+   height: calc((var(--tam_screen_min) *21) / var(--tam_desktop));
+  }
+   /*para el icono de instagram y skype*/
+  #icon-ig img, #icon-sk img{
+   width: calc((var(--tam_screen_min) *21) / var(--tam_desktop));
+   height: calc((var(--tam_screen_min) *21) / var(--tam_desktop));
+  }
+   /*para el icono de linkedin*/
+  #icon-lknd img{
+   width: calc((var(--tam_screen_min) *19) / var(--tam_desktop));
+   height: calc((var(--tam_screen_min) *18) / var(--tam_desktop));
+  
+  }
+   /*para el fondo del div contenedor de icono de facebook*/
+  #icon-fb {
+   background: transparent linear-gradient(45deg, #6362d7 0%, #ff8fe2 100%) 0%
+     0% no-repeat padding-box;
+ }
+ /*para el fondo del div contenedor de icono de instagram*/
+ #icon-ig {
+   background: transparent linear-gradient(47deg, #f09376 0%, #f0db79 100%) 0%
+     0% no-repeat padding-box;
+   opacity: 1;
+ }
+/*para el fondo del div contenedor de icono de skype*/
+ #icon-sk {
+   background: transparent
+     linear-gradient(23deg, #00b56c 0%, #1dbe75 22%, #68d58c 68%, #9ee69d 100%)
+     0% 0% no-repeat padding-box;
+   opacity: 1;
+ }
+/*para el fondo del div contenedor de icono de linkedin*/
+ #icon-lknd {
+   background: transparent
+     linear-gradient(90deg, #ff9ab6 0%, #f03295 99%, #f03295 100%) 0% 0%
+     no-repeat padding-box;
+   opacity: 1;
+ }
+ 
+ .icon-social {
+   cursor: pointer;
+ }
+
+ .info-description p{
+   text-align: left;
+   font-family:"Poppins";
+   font-weight:400;
+   font-size:calc((var(--tam_screen_min) *13)/var(--tam_desktop));
+   line-height:calc((var(--tam_screen_min) *23/ var(--tam_desktop)));
+  letter-spacing: 0;
+   color: #777777;
+   opacity: 1;
+ }
+ .list-unstyled li a,.list-unstyled li h6 {
+   text-align: left;
+   font: 400 calc((var(--tam_screen_min) *15)/var(--tam_desktop))/calc((var(--tam_screen_min) *32)/var(--tam_desktop)) "Poppins";
+   letter-spacing: 0;
+   color: #777777;
+   opacity: 1;
+ }
+ /*para que encaje dentro de la pantalla*/
+ .container, .container-lg, .container-md, .container-sm {
+   max-width: 768px;
+   }
+/*para el icono de correo electronico*/
+   .list-unstyled li img{
+      width: calc((var(--tam_screen_min) *29)/var(--tam_desktop));
+      height: calc((var(--tam_screen_min) *21)/var(--tam_desktop));
+   }
+   #container-1{
+      display:inline-block;
+   }
+}
+
+@media (min-width: 1920px) {
+  .logo-shok-big{
+    margin: 122.13px 0 100px 714px;
+    width: 500px;
+    height: 28px;
+  }
+  .logo-shok-big img{
+    width:100%;
+    height:100%;
+  }
+  .footer-container {
+    width: 1934px;
+    /*    height: 564px; */
+  }
+  .footer-contain {
+    position:relative;
     width: 1932px;
     height: 290px;
     margin-top: 1px;
-    background: transparent linear-gradient(4deg, #FFFFFF 0%, #DFF0FF 100%) 0% 0% no-repeat padding-box;
- }
+    background: transparent linear-gradient(4deg, #ffffff 0%, #dff0ff 100%) 0%
+      0% no-repeat padding-box;
+  }
 
- .container-info{
+  /* estilos para cuadros y circulos*/
+  .bubble-tipe {
+    position: absolute;
+    background: #0000ff 0% 0% no-repeat padding-box;
+    opacity: 0.03;
+  }
+  .loader {
+    border-right: 12px solid #0000ff;
+    border-left: 12px solid #0000ff;
+    border-radius: 50%;
+    position: absolute;
+
+    border-top: 12px solid #0000ff;
+    border-bottom: 12px solid #0000ff;
+    opacity: 0.03;
+  }
+  .b-max{
+    width:64px;
+    height:60px;
+  }
+  .b-max2{
+    width:72px;
+    height:68px;
+  }
+  .b-med{
+    width:57px;
+    height:54px;
+  }
+  .b-min{
+    width:35px;
+    height:30px;
+  }
+  
+  #b1{
+    top: 100.19px;
+    left: 668px;
+  }
+  #b2{
+    right: 594px;
+    bottom: 74px;
+
+  }
+  #b3{
+    bottom: 54.59px;
+    right: 566px;
+  }
+
+  #b4{
+    right: 416px;
+    bottom: 119.58px;
+  }
+  #b5{
+    bottom: 98px;
+    right: 393px;
+  }
+  .cr-big{
+    width:62px;
+    height:58px;
+  }
+  .cr-max{
+    width: 41px;
+    height:39px;
+  }
+  .cr-med{
+    width: 48px;
+    height:35px;
+  }
+  .cr-min{
+    width: 49px;
+    height:46px;
+  }
+
+  #cr-1{
+    bottom: 29px;
+    left: 68px;
+  }
+
+  #cr-2{
+    bottom: 133px;
+    left: 221px;
+  }
+
+  #cr-3{
+    bottom: 42px;
+    left: 636px;
+
+  }
+  #cr-4{
+    bottom: 63px;
+    left: 998px;
+  }
+
+  #cr-5{
+    right: 228px;
+    top: 49px;
+  }
+
+  #cr-6{
+    right: 73px;
+    bottom: 154px;
+  }
+
+  #cr-7{
+    right: 178px;
+    bottom: 0.26px;
+  }
+  .container-info {
     width: 1932px;
     height: 110.13px;
-    background: #FFFFFF 0% 0% no-repeat padding-box;
-  /*   clip-path: polygon(0 0, 0% 100%, 95% 1%); */
-  clip-path: polygon(100% 0, 100% 4%, 0 100%, 0 0);
- }
+    background: #ffffff 0% 0% no-repeat padding-box;
+    /*   clip-path: polygon(0 0, 0% 100%, 95% 1%); */
+    clip-path: polygon(100% 0, 100% 4%, 0 100%, 0 0);
+  }
 
- .footer-info ,.footer-info2{
-     margin:0 294px;
-     
- }
- .info-title, .list-contact, .info-description{
-    margin:auto;
- }
- .info-title{
-     padding:0;
- }
- .info-title h5{
- 
-    font: 500 18px/27px 'Poppins';
+  .footer-info,
+  .footer-info2 {
+    margin: 0 294px;
+  }
+  .info-title,
+  .list-contact,
+  .info-description {
+    margin: auto;
+  }
+  .info-title {
+    padding: 0;
+  }
+  .info-title h5 {
+    font: 500 18px/27px "Poppins";
     letter-spacing: 0;
-    color: #101C21;
+    color: #101c21;
     opacity: 1;
- }
+  }
 
- .item{
-     padding:0;
- }
- .icon-social{
+  .item {
+    padding: 0;
+  }
+  .icon-social {
     width: 49px;
     height: 48px;
     border-radius: 100%;
-    display:flex;
+    display: flex;
     justify-content: center;
     align-items: center;
-
-    
-}
-#icon-fb{
-    background: transparent linear-gradient(45deg, #6362D7 0%, #FF8FE2 100%) 0% 0% no-repeat padding-box;
- 
-}
-#icon-ig{
-    background: transparent linear-gradient(47deg, #F09376 0%, #F0DB79 100%) 0% 0% no-repeat padding-box;
+  }
+  #icon-fb {
+    background: transparent linear-gradient(45deg, #6362d7 0%, #ff8fe2 100%) 0%
+      0% no-repeat padding-box;
+  }
+  #icon-ig {
+    background: transparent linear-gradient(47deg, #f09376 0%, #f0db79 100%) 0%
+      0% no-repeat padding-box;
     opacity: 1;
-}
+  }
 
-#icon-sk{
-    background: transparent linear-gradient(23deg, #00B56C 0%, #1DBE75 22%, #68D58C 68%, #9EE69D 100%) 0% 0% no-repeat padding-box;
+  #icon-sk {
+    background: transparent
+      linear-gradient(23deg, #00b56c 0%, #1dbe75 22%, #68d58c 68%, #9ee69d 100%)
+      0% 0% no-repeat padding-box;
     opacity: 1;
-}
+  }
 
-#icon-lknd{
-    background: transparent linear-gradient(90deg, #FF9AB6 0%, #F03295 99%, #F03295 100%) 0% 0% no-repeat padding-box;
-opacity: 1;
-}
- .icon-social {
+  #icon-lknd {
+    background: transparent
+      linear-gradient(90deg, #ff9ab6 0%, #f03295 99%, #f03295 100%) 0% 0%
+      no-repeat padding-box;
+    opacity: 1;
+  }
+  .icon-social {
     cursor: pointer;
- }
+  }
 
- .info-description {
+  .info-description p{
     text-align: left;
-    font: 400 13px/23px 'Poppins';
+    font: 400 13px/23px "Poppins";
     letter-spacing: 0;
     color: #777777;
     opacity: 1;
- }
+  }
 
- .list-unstyled li a{
+  .list-unstyled li a {
     text-align: left;
-    font: 400 15px/32px 'Poppins';
+    font: 400 15px/32px "Poppins";
     letter-spacing: 0;
     color: #777777;
     opacity: 1;
- }
+  }
+  .container, .container-lg, .container-md, .container-sm {
+    max-width: 1340px;
+    }
+}

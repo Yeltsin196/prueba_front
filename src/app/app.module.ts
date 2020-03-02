@@ -4,23 +4,28 @@ import { NgModule } from '@angular/core';
 import { AppComponent } from './app.component';
 
 import { HomeComponent } from './home/home.component';
-import { HeaderComponent } from './header/header.component';
+
 import { FooterComponent } from './footer/footer.component';
 
 import { HttpClientModule } from '@angular/common/http';
 import { ContactComponent } from './contact/contact.component';
 import { CarouselQuoteComponent } from './carousel-quote/carousel-quote.component';
 import { GridPartnesComponent } from './grid-partnes/grid-partnes.component';
+<<<<<<< HEAD
 import { CarouselPostsComponent } from './carousel-posts/carousel-posts.component';
 
 
+=======
+import {CarouselPostsComponent} from './carousel-posts/carousel-posts.component';
+import { FormsModule } from '@angular/forms';
+>>>>>>> develop
 @NgModule({
   declarations: [
     AppComponent,
     
     HomeComponent,
     
-    HeaderComponent,
+
     
     FooterComponent,
     
@@ -31,14 +36,18 @@ import { CarouselPostsComponent } from './carousel-posts/carousel-posts.componen
     GridPartnesComponent,
     
     CarouselPostsComponent,
+<<<<<<< HEAD
     
  
+=======
+>>>>>>> develop
     
     
   ],
   imports: [
     BrowserModule,
-    HttpClientModule 
+    HttpClientModule,
+    FormsModule 
   ],
   providers: [],
   bootstrap: [AppComponent]

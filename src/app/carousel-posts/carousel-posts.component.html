@@ -1,0 +1,90 @@
+<section class="info4">
+  <div class="info4-h2">
+    <h2 class="font-monserrat">What is the</h2>
+    <h2 class="font-monserrat"><strong> Speciality Of Us?</strong></h2>
+  </div>
+  <div class="carousel-conteiner">
+    <div
+      id="carouselExampleControls"
+      class="carousel slide"
+      data-ride="carousel"
+    >
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+          <div *ngFor="let new of newsA; let i = index">
+            <div *ngIf="i == 0">
+              <div class="card-a" *ngFor="let nw of new">
+                <div class="col-lg-12  item-carousel">
+                  <div class="card-image">
+                    <img src="{{ nw.urlToImage }}" alt="" />
+                  </div>
+                </div>
+                <div class="col-lg-12 item-carousel mt-4">
+                  <div class="card-title">
+                    <h5>{{ nw.author }}</h5>
+                  </div>
+                </div>
+                <div class="col-lg-12 item-carousel mt-3">
+                  <div class="card-text">
+                    <p>{{ nw.title }}</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- <div  class=" "  > -->
+          <ng-container *ngFor="let new of newsA; let i = index">
+           <ng-container *ngIf="i!=0;">
+            
+            <div class="carousel-item">
+              <div  class="card-a" *ngFor="let nw of new ">
+                <div class="card-image">
+                  <img src="{{ nw.urlToImage }}" alt="" />
+                </div>
+                <div class="col-lg-12 item-carousel mt-4">
+                  <div class="card-title">
+                    <h5>{{ nw.author }}</h5>
+                  </div>
+                </div>
+                <div class="col-lg-12 item-carousel mt-3">
+                  <div class="card-text">
+                    <p>{{ nw.title }}</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+           </ng-container>
+           
+          </ng-container>
+
+          
+         
+      </div>
+
+      <div class="icon-control-container">
+        <div class="icon-control">
+          <a
+            class=""
+            href="#carouselExampleControls"
+            role="button"
+            data-slide="prev"
+          >
+            <img src="../../assets/arrow-left.png" alt="" srcset="" />
+          </a>
+        </div>
+        <div class="icon-control">
+          <a
+            class=""
+            href="#carouselExampleControls"
+            role="button"
+            data-slide="next"
+          >
+            <img src="../../assets/arrow-right.png" alt="" srcset="" />
+          </a>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>

@@ -4,7 +4,15 @@
     --tam_screen_max: 1919;
     --tam_screen_min: 1680px;
   }
-
+  .logo-shok-big{
+    margin: calc((var(--tam_screen_min) *122.13) / var(--tam_desktop)) 0 calc((var(--tam_screen_min) *100) / var(--tam_desktop)) calc((var(--tam_screen_min) *714) / var(--tam_desktop));
+    width: calc((var(--tam_screen_min) *500) / var(--tam_desktop));
+    height: calc((var(--tam_screen_min) *28) / var(--tam_desktop));
+  }
+  .logo-shok-big img{
+    width:100%;
+    height:100%;
+  }
   /*conteiner global*/
   .footer-container {
     width: calc((var(--tam_screen_min) * 1934) / var(--tam_desktop));
@@ -316,7 +324,15 @@
     --tam_screen_max: 1439;
     --tam_screen_min: 1366px;
   }
-
+  .logo-shok-big{
+    margin: calc((var(--tam_screen_min) *122.13) / var(--tam_desktop)) 0 calc((var(--tam_screen_min) *100) / var(--tam_desktop)) calc((var(--tam_screen_min) *714) / var(--tam_desktop));
+    width: calc((var(--tam_screen_min) *500) / var(--tam_desktop));
+    height: calc((var(--tam_screen_min) *28) / var(--tam_desktop));
+  }
+  .logo-shok-big img{
+    width:100%;
+    height:100%;
+  }
   /*conteiner global*/
   .footer-container {
     width: calc((var(--tam_screen_min) * 1934) / var(--tam_desktop));
@@ -472,7 +488,15 @@
     --tam_screen_max: 1365;
     --tam_screen_min: 1280px;
   }
-
+  .logo-shok-big{
+    margin: calc((var(--tam_screen_min) *122.13) / var(--tam_desktop)) 0 calc((var(--tam_screen_min) *100) / var(--tam_desktop)) calc((var(--tam_screen_min) *714) / var(--tam_desktop));
+    width: calc((var(--tam_screen_min) *500) / var(--tam_desktop));
+    height: calc((var(--tam_screen_min) *28) / var(--tam_desktop));
+  }
+  .logo-shok-big img{
+    width:100%;
+    height:100%;
+  }
   /*conteiner global*/
   .footer-container {
     width: calc((var(--tam_screen_min) * 1934) / var(--tam_desktop));
@@ -629,6 +653,15 @@
     --tam_screen_min: 1023px;
   }
 
+  .logo-shok-big{
+    margin: calc((var(--tam_screen_min) *122.13) / var(--tam_desktop)) 0 calc((var(--tam_screen_min) *100) / var(--tam_desktop)) calc((var(--tam_screen_min) *714) / var(--tam_desktop));
+    width: calc((var(--tam_screen_min) *500) / var(--tam_desktop));
+    height: calc((var(--tam_screen_min) *28) / var(--tam_desktop));
+  }
+  .logo-shok-big img{
+    width:100%;
+    height:100%;
+  }
   /*conteiner global*/
   .footer-container {
     width: calc((var(--tam_screen_min) * 1934) / var(--tam_desktop));
